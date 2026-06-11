@@ -1,42 +1,94 @@
-# Day 9: Lists Part 1
+# Day 9: Lists Part 1 (Basics and Built-in Functions)
 
-Lists are used to store multiple items in a single variable. They are created using square brackets `[]`.
+Lists are used to store multiple items in a single variable. They are **ordered**, **mutable** (changeable), and allow duplicate values.
 
-## Characteristics of Lists
-- **Ordered**: They maintain the order of insertion.
-- **Mutable**: You can change, add, and remove items after creation.
-- **Allow Duplicates**: Can contain items with the same value.
-- **Heterogeneous**: Can contain different data types (e.g., ints, strings, other lists).
+Here is a well-organized list of basic built-in list functions.
 
+---
+
+## 1. Adding Items to a List
+
+### `append()`
+Adds a single element to the end of the list.
+**Input:**
 ```python
-my_list = [10, "Hello", 3.14, True]
+fruits = ["apple", "banana"]
+fruits.append("cherry")
+print(fruits)
+```
+**Output:**
+```text
+['apple', 'banana', 'cherry']
 ```
 
-## Accessing List Items
-Indexing and slicing work exactly like strings.
+### `insert()`
+Inserts an element at a specified index.
+**Input:**
 ```python
-fruits = ["apple", "banana", "cherry", "orange"]
-print(fruits[1])    # 'banana'
-print(fruits[-1])   # 'orange'
-print(fruits[1:3])  # ['banana', 'cherry']
+fruits = ["apple", "banana"]
+fruits.insert(1, "orange")
+print(fruits)
+```
+**Output:**
+```text
+['apple', 'orange', 'banana']
 ```
 
-## Basic List Methods (Adding/Removing)
-
+### `extend()`
+Adds the elements of another list (or any iterable) to the end of the current list.
+**Input:**
 ```python
-# append() - Add an item to the end
-fruits.append("grape")
+list1 = [1, 2]
+list2 = [3, 4]
+list1.extend(list2)
+print(list1)
+```
+**Output:**
+```text
+[1, 2, 3, 4]
+```
 
-# insert() - Add an item at a specific index
-fruits.insert(1, "mango")
+---
 
-# remove() - Removes the first matching value
-fruits.remove("banana")
+## 2. Removing Items from a List
 
-# pop() - Removes the item at the specified index (or the last item if index is not specified)
-last_fruit = fruits.pop()
-first_fruit = fruits.pop(0)
+### `remove()`
+Removes the first occurrence of a specified value.
+**Input:**
+```python
+colors = ["red", "green", "blue", "green"]
+colors.remove("green")
+print(colors)
+```
+**Output:**
+```text
+['red', 'blue', 'green']
+```
 
-# clear() - Empties the list
-fruits.clear()
+### `pop()`
+Removes the element at the specified index and returns it. If no index is specified, it removes and returns the last item.
+**Input:**
+```python
+numbers = [10, 20, 30, 40]
+last_item = numbers.pop()
+print("Popped:", last_item)
+print("List:", numbers)
+```
+**Output:**
+```text
+Popped: 40
+List: [10, 20, 30]
+```
+
+### `clear()`
+Removes all elements from the list, leaving it empty.
+**Input:**
+```python
+items = ["pencil", "pen", "eraser"]
+items.clear()
+print(items)
+```
+**Output:**
+```text
+[]
 ```

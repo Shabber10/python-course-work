@@ -1,47 +1,95 @@
-# Day 10: Lists Part 2
+# Day 10: Lists Part 2 (Advanced Built-in Functions)
 
-## Advanced List Methods
+Continuing from Day 9, here are more advanced built-in functions for manipulating lists.
 
+---
+
+## 1. Sorting and Reversing
+
+### `sort()`
+Sorts the list in ascending order by default. This modifies the original list.
+**Input:**
 ```python
-numbers = [3, 1, 4, 1, 5, 9, 2]
-
-# sort() - Sorts the list ascending (modifies the original list)
+numbers = [4, 1, 9, 3]
 numbers.sort()
-# To sort descending:
+print(numbers)
+```
+**Output:**
+```text
+[1, 3, 4, 9]
+```
+
+**Input (Descending Order):**
+```python
+numbers = [4, 1, 9, 3]
 numbers.sort(reverse=True)
-
-# reverse() - Reverses the order of the list
-numbers.reverse()
-
-# count() - Returns the number of elements with the specified value
-print(numbers.count(1))
-
-# index() - Returns the index of the first element with the specified value
-print(numbers.index(5))
+print(numbers)
+```
+**Output:**
+```text
+[9, 4, 3, 1]
 ```
 
-## Nested Lists
-Lists can contain other lists.
+### `reverse()`
+Reverses the order of the elements in the list.
+**Input:**
 ```python
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-]
-# Accessing '5'
-print(matrix[1][1])
+letters = ['A', 'B', 'C']
+letters.reverse()
+print(letters)
+```
+**Output:**
+```text
+['C', 'B', 'A']
 ```
 
-## List Comprehension
-A concise way to create lists based on existing lists.
-`[expression for item in iterable if condition == True]`
+---
 
+## 2. Searching and Counting
+
+### `count()`
+Returns the number of times a specified value appears in the list.
+**Input:**
 ```python
-# Create a list of squares from 1 to 5
-squares = [x**2 for x in range(1, 6)]
-print(squares) # [1, 4, 9, 16, 25]
+votes = ["yes", "no", "yes", "yes", "no"]
+print(votes.count("yes"))
+```
+**Output:**
+```text
+3
+```
 
-# Filter a list (only even numbers)
-nums = [1, 2, 3, 4, 5, 6]
-evens = [x for x in nums if x % 2 == 0]
+### `index()`
+Returns the index of the first occurrence of a specified value.
+**Input:**
+```python
+animals = ["cat", "dog", "rabbit"]
+print(animals.index("dog"))
+```
+**Output:**
+```text
+1
+```
+
+---
+
+## 3. Copying Lists
+
+### `copy()`
+Returns a shallow copy of the list.
+**Input:**
+```python
+original = [1, 2, 3]
+duplicate = original.copy()
+
+# Changing the duplicate doesn't affect the original
+duplicate.append(4)
+
+print("Original:", original)
+print("Duplicate:", duplicate)
+```
+**Output:**
+```text
+Original: [1, 2, 3]
+Duplicate: [1, 2, 3, 4]
 ```
