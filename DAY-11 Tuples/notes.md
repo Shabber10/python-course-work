@@ -1,82 +1,123 @@
-# Day 11: Tuples (Basics and Built-in Functions)
+# DAY-11 Tuples
 
-Tuples are used to store multiple items in a single variable. They are **ordered**, **allow duplicate values**, but are **immutable** (cannot be changed after creation).
+Tuples are used to store multiple items in a single variable. 
+A tuple is a collection which is ordered and **unchangeable** (immutable).
 
-Because tuples are immutable, they have fewer built-in methods compared to lists.
+## 1. Tuple Characteristics and Definition
+- **Ordered:** The items have a defined order, and that order will not change.
+- **Unchangeable (Immutable):** We cannot change, add or remove items after the tuple has been created.
+- **Allow Duplicates:** Since tuples are indexed, they can have items with the same value.
 
-Here is a well-organized list of tuple built-in functions.
-
----
-
-## 1. Searching and Counting
-
-### `count()`
-Returns the number of times a specified value occurs in the tuple.
 **Input:**
 ```python
-my_tuple = (1, 5, 7, 5, 9, 5)
-print(my_tuple.count(5))
+mytuple = ("apple", "banana", "cherry", "apple")
+print(mytuple)
+print(len(mytuple))
+print(type(mytuple))
 ```
 **Output:**
 ```text
-3
+('apple', 'banana', 'cherry', 'apple')
+4
+<class 'tuple'>
 ```
 
-### `index()`
-Searches the tuple for a specified value and returns the index of its first occurrence.
+## 2. Creating Tuples with One Item
+To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
 **Input:**
 ```python
-colors = ("red", "green", "blue", "yellow")
-print(colors.index("blue"))
+thistuple = ("apple",)
+print(type(thistuple))
+
+not_a_tuple = ("apple")
+print(type(not_a_tuple))
+```
+**Output:**
+```text
+<class 'tuple'>
+<class 'str'>
+```
+
+## 3. Accessing Tuple Items
+You can access tuple items by referring to the index number, inside square brackets.
+**Input:**
+```python
+thistuple = ("apple", "banana", "cherry", "orange")
+print(thistuple[1])
+print(thistuple[-1])
+print(thistuple[1:3])
+```
+**Output:**
+```text
+banana
+orange
+('banana', 'cherry')
+```
+
+## 4. Updating Tuples (The Workaround)
+Since tuples are immutable, you cannot change them directly. You can convert the tuple into a list, change the list, and convert the list back into a tuple.
+**Input:**
+```python
+x = ("apple", "banana", "cherry")
+y = list(x)
+y[1] = "kiwi"
+x = tuple(y)
+print(x)
+```
+**Output:**
+```text
+('apple', 'kiwi', 'cherry')
+```
+
+## 5. Unpacking a Tuple
+When we create a tuple, we normally assign values to it. This is called "packing" a tuple. We are also allowed to extract the values back into variables. This is called "unpacking".
+**Input:**
+```python
+fruits = ("apple", "banana", "cherry")
+(green, yellow, red) = fruits
+print(green)
+print(yellow)
+
+# Using Asterisk* (if number of variables is less than items)
+fruits2 = ("apple", "banana", "cherry", "strawberry", "raspberry")
+(green, yellow, *red) = fruits2
+print(red)
+```
+**Output:**
+```text
+apple
+banana
+['cherry', 'strawberry', 'raspberry']
+```
+
+## 6. Joining and Multiplying Tuples
+**Input:**
+```python
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
+tuple3 = tuple1 + tuple2
+print(tuple3)
+
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+print(mytuple)
+```
+**Output:**
+```text
+('a', 'b', 'c', 1, 2, 3)
+('apple', 'banana', 'cherry', 'apple', 'banana', 'cherry')
+```
+
+## 7. Tuple Methods
+Tuples have only two built-in methods.
+**Input:**
+```python
+thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
+print(thistuple.count(5)) # Returns number of times 5 occurs
+print(thistuple.index(8)) # Returns first index of 8
 ```
 **Output:**
 ```text
 2
-```
-
----
-
-## 2. Working with Tuples (Operations rather than Methods)
-
-While tuples don't have many methods, you can perform several operations on them using built-in Python functions.
-
-### Finding Length (`len()`)
-Finds how many items are in the tuple.
-**Input:**
-```python
-fruits = ("apple", "banana", "cherry")
-print(len(fruits))
-```
-**Output:**
-```text
 3
-```
-
-### Concatenation (`+`)
-You can join two tuples together to create a new one.
-**Input:**
-```python
-tuple1 = (1, 2)
-tuple2 = (3, 4)
-tuple3 = tuple1 + tuple2
-print(tuple3)
-```
-**Output:**
-```text
-(1, 2, 3, 4)
-```
-
-### Tuple Unpacking
-Extracting values from a tuple into variables.
-**Input:**
-```python
-coordinates = (10, 20, 30)
-x, y, z = coordinates
-print("X:", x)
-print("Y:", y)
-```
-**Output:**
-```text
-X: 10
-Y: 20
 ```
