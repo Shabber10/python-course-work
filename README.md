@@ -31,8 +31,8 @@ This course is structured chronologically. Each "Day" is contained within its ow
 |:---:|:---|:---|
 | **01** | Introduction & Environment | [1. Introduction and Features.md](DAY-01%20Introduction/1.%20Introduction%20and%20Features.md) |
 | **02** | Python Tokens & Variables | [1. Introduction to Python Tokens.md](DAY-02%20Python%20Tokens/1.%20Introduction%20to%20Python%20Tokens.md) |
-| **03** | Data Types & Type Casting | [1. Built-in Data Types Overview.md](DAY-03%20Data%20Types%20and%20Type%20Casting/1.%20Built-in%20Data%20Types%20Overview.md) |
-| **04** | Operators & Expressions | [1. Unary Operators.md](DAY-04%20Operators/1.%20Unary%20Operators.md) |
+| **03** | Data Types & Type Casting | [1. Data Types Deep Dive.md](DAY-03%20Data%20Types%20and%20Type%20Casting/1.%20Data%20Types%20Deep%20Dive.md) |
+| **04** | Operators & Expressions | [1. Unary and Ternary Operators.md](DAY-04%20Operators/1.%20Unary%20and%20Ternary%20Operators.md) |
 
 ### Phase 2: Data Structures
 | Day | Topic | Start Here |
