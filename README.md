@@ -53,8 +53,16 @@ This course is structured chronologically. Each "Day" is contained within its ow
 | **14** | Jumping Statements | [1. Jumping Statements (Break, Continue, Pass).md](DAY-14%20Jumping%20Statements/1.%20Jumping%20Statements%20%28Break%2C%20Continue%2C%20Pass%29.md) |
 | **15** | Control Statements Advanced | [1. Else Suite with Loops.md](DAY-15%20Control%20Statements%20Advanced/1.%20Else%20Suite%20with%20Loops.md) |
 
-### Phase 4 & 5: Functions, OOP, and Beyond (Upcoming)
-*Days 16 through 30 are currently under active development. Stay tuned for advanced topics including Functions, Object-Oriented Programming (OOP), File Handling, Exception Handling, and more!*
+### Phase 4: Intermediate Logic & Functions
+| Day | Topic | Start Here |
+|:---:|:---|:---|
+| **16** | Pattern Printing | [1. Basic Patterns (Square, Triangles).md](DAY-16%20Pattern%20Printing/1.%20Basic%20Patterns%20%28Square%2C%20Triangles%29.md) |
+| **17** | Alphabet Patterns | [1. Character and ASCII Concepts.md](DAY-17%20Alphabet%20Patterns/1.%20Character%20and%20ASCII%20Concepts.md) |
+| **18** | Functions | [1. Introduction to Functions.md](DAY-18%20Functions/1.%20Introduction%20to%20Functions.md) |
+| **19** | Recursion | [1. Recursion Basics and Base Cases.md](DAY-19%20Recursion/1.%20Recursion%20Basics%20and%20Base%20Cases.md) |
+
+### Phase 5: OOP and Beyond (Upcoming)
+*Days 20 through 30 are currently under active development. Stay tuned for advanced topics including Object-Oriented Programming (OOP), File Handling, Exception Handling, and more!*
 
 ---
 
