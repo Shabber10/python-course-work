@@ -60,9 +60,14 @@ This course is structured chronologically. Each "Day" is contained within its ow
 | **17** | Alphabet Patterns | [1. Character and ASCII Concepts.md](DAY-17%20Alphabet%20Patterns/1.%20Character%20and%20ASCII%20Concepts.md) |
 | **18** | Functions | [1. Introduction to Functions.md](DAY-18%20Functions/1.%20Introduction%20to%20Functions.md) |
 | **19** | Recursion | [1. Recursion Basics and Base Cases.md](DAY-19%20Recursion/1.%20Recursion%20Basics%20and%20Base%20Cases.md) |
+| **20** | Generators | [1. Introduction to Generators.md](DAY-20%20Generators/1.%20Introduction%20to%20Generators.md) |
+| **21** | Iterators & Packages | [1. Iterators and Custom Iterators.md](DAY-21%20Iterators%20and%20Packages/1.%20Iterators%20and%20Custom%20Iterators.md) |
+| **22** | Lambda Functions | [1. Lambda Functions Basics.md](DAY-22%20Lambda%20Functions/1.%20Lambda%20Functions%20Basics.md) |
+| **23** | Modules & Imports | [1. Modules and Import System.md](DAY-23%20Modules%20and%20Imports/1.%20Modules%20and%20Import%20System.md) |
+| **24** | Datetime & Random | [1. Random and Time Modules.md](DAY-24%20Datetime%20and%20Random/1.%20Random%20and%20Time%20Modules.md) |
 
 ### Phase 5: OOP and Beyond (Upcoming)
-*Days 20 through 30 are currently under active development. Stay tuned for advanced topics including Object-Oriented Programming (OOP), File Handling, Exception Handling, and more!*
+*Days 25 through 30 are currently under active development. Stay tuned for advanced topics including Object-Oriented Programming (OOP), File Handling, Exception Handling, and more!*
 
 ---
 
