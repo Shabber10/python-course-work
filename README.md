@@ -66,8 +66,12 @@ This course is structured chronologically. Each "Day" is contained within its ow
 | **23** | Modules & Imports | [1. Modules and Import System.md](DAY-23%20Modules%20and%20Imports/1.%20Modules%20and%20Import%20System.md) |
 | **24** | Datetime, Random & Math | [1. Random and Time Modules.md](DAY-24%20Datetime%20and%20Random/1.%20Random%20and%20Time%20Modules.md) |
 
-### Phase 5: OOP and Beyond (Upcoming)
-*Days 25 through 30 are currently under active development. Stay tuned for advanced topics including Object-Oriented Programming (OOP), File Handling, Exception Handling, and more!*
+### Phase 5: OOP and Beyond
+| Day | Topic | Start Here |
+|:---:|:---|:---|
+| **25** | OOP Basics (Classes & Objects) | [1. Introduction to OOP (Classes and Objects).md](DAY-25/1.%20Introduction%20to%20OOP%20%28Classes%20and%20Objects%29.md) |
+
+*Days 26 through 30 are currently under active development. Stay tuned for advanced topics including File Handling, Exception Handling, and more!*
 
 ---
 
