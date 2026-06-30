@@ -41,8 +41,8 @@ This course is structured chronologically. Each "Day" is contained within its ow
 | **06** | Strings (Part 2) | [1. Modifying and Splitting Strings.md](DAY-06%20Strings%20Part%202/1.%20Modifying%20and%20Splitting%20Strings.md) |
 | **07** | Lists | [1. Basics and Accessing.md](DAY-07%20Lists/1.%20Basics%20and%20Accessing.md) |
 | **08** | Tuples | [1. Immutability and Unpacking.md](DAY-08%20Tuples/1.%20Immutability%20and%20Unpacking.md) |
-| **09** | Dictionaries | [1. Basics and Accessing.md](DAY-09%20Dictionaries/1.%20Basics%20and%20Accessing.md) |
-| **10** | Sets | [1. Mathematical Operations and Methods.md](DAY-10%20Sets/1.%20Mathematical%20Operations%20and%20Methods.md) |
+| **09** | Sets | [1. Mathematical Operations and Methods.md](DAY-09%20Sets/1.%20Mathematical%20Operations%20and%20Methods.md) |
+| **10** | Dictionaries & Collections | [1. Basics and Accessing.md](DAY-10%20Dictionaries/1.%20Basics%20and%20Accessing.md) |
 
 ### Phase 3: Control Flow
 | Day | Topic | Start Here |
@@ -64,7 +64,7 @@ This course is structured chronologically. Each "Day" is contained within its ow
 | **21** | Iterators & Packages | [1. Iterators and Custom Iterators.md](DAY-21%20Iterators%20and%20Packages/1.%20Iterators%20and%20Custom%20Iterators.md) |
 | **22** | Lambda Functions | [1. Lambda Functions Basics.md](DAY-22%20Lambda%20Functions/1.%20Lambda%20Functions%20Basics.md) |
 | **23** | Modules & Imports | [1. Modules and Import System.md](DAY-23%20Modules%20and%20Imports/1.%20Modules%20and%20Import%20System.md) |
-| **24** | Datetime & Random | [1. Random and Time Modules.md](DAY-24%20Datetime%20and%20Random/1.%20Random%20and%20Time%20Modules.md) |
+| **24** | Datetime, Random & Math | [1. Random and Time Modules.md](DAY-24%20Datetime%20and%20Random/1.%20Random%20and%20Time%20Modules.md) |
 
 ### Phase 5: OOP and Beyond (Upcoming)
 *Days 25 through 30 are currently under active development. Stay tuned for advanced topics including Object-Oriented Programming (OOP), File Handling, Exception Handling, and more!*
@@ -80,4 +80,4 @@ Contributions, issues, and feature requests are welcome! If you find a typo or w
 5. Open a Pull Request
 
 ## 📝 License
-This project is open-source and available under the [MIT License](LICENSE). Feel free to use this material for personal study or educational purposes.
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use this material for personal study or educational purposes.
