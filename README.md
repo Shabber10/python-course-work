@@ -64,14 +64,17 @@ This course is structured chronologically. Each "Day" is contained within its ow
 | **21** | Iterators & Packages | [1. Iterators and Custom Iterators.md](DAY-21%20Iterators%20and%20Packages/1.%20Iterators%20and%20Custom%20Iterators.md) |
 | **22** | Lambda Functions | [1. Lambda Functions Basics.md](DAY-22%20Lambda%20Functions/1.%20Lambda%20Functions%20Basics.md) |
 | **23** | Modules & Imports | [1. Modules and Import System.md](DAY-23%20Modules%20and%20Imports/1.%20Modules%20and%20Import%20System.md) |
-| **24** | Datetime, Random & Math | [1. Random and Time Modules.md](DAY-24%20Datetime%20and%20Random/1.%20Random%20and%20Time%20Modules.md) |
+| **24** | Datetime, Random, Math & Regex | [1. Random and Time Modules.md](DAY-24%20Datetime%20and%20Random/1.%20Random%20and%20Time%20Modules.md) |
 
 ### Phase 5: OOP and Beyond
 | Day | Topic | Start Here |
 |:---:|:---|:---|
-| **25** | OOP Basics (Classes & Objects) | [1. Introduction to OOP (Classes and Objects).md](DAY-25/1.%20Introduction%20to%20OOP%20%28Classes%20and%20Objects%29.md) |
+| **25** | OOP Basics (Classes & Objects) | [1. Introduction to OOP (Classes and Objects).md](DAY-25%20OOPs/1.%20Introduction%20to%20OOP%20%28Classes%20and%20Objects%29.md) |
+| **26** | Advanced OOP Concepts | [1. Inheritance and MRO.md](DAY-26%20OOPs%20Advance/1.%20Inheritance%20and%20MRO.md) |
+| **27** | File Handling | [1. Introduction and Reading Files.md](DAY-27%20Files/1.%20Introduction%20and%20Reading%20Files.md) |
+| **28** | Files Advance | [1. Working with JSON and CSV.md](DAY-28%20Files%20Advance/1.%20Working%20with%20JSON%20and%20CSV.md) |
 
-*Days 26 through 30 are currently under active development. Stay tuned for advanced topics including File Handling, Exception Handling, and more!*
+*Days 29 through 30 are currently under active development. Stay tuned for advanced topics!*
 
 ---
 
