@@ -1,0 +1,6180 @@
+[
+  {
+    "id": 1,
+    "type": "MCQ",
+    "question": "Which function is called automatically when an object is created?",
+    "options": [
+      {
+        "label": "A",
+        "text": "del"
+      },
+      {
+        "label": "B",
+        "text": "new"
+      },
+      {
+        "label": "C",
+        "text": "init"
+      },
+      {
+        "label": "D",
+        "text": "str"
+      }
+    ],
+    "user_code": "",
+    "marks": "0/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "type": "MCQ",
+    "question": "Which of these concepts encourages data hiding in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Variables"
+      },
+      {
+        "label": "B",
+        "text": "Loops"
+      },
+      {
+        "label": "C",
+        "text": "Private variables using __"
+      },
+      {
+        "label": "D",
+        "text": "Functions"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "type": "MCQ",
+    "question": "What typically leads to more memory consumption?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Stack memory"
+      },
+      {
+        "label": "B",
+        "text": "Procedural functions"
+      },
+      {
+        "label": "C",
+        "text": "Creating many class instances"
+      },
+      {
+        "label": "D",
+        "text": "Declaring constants"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "type": "MCQ",
+    "question": "In procedural programming, memory is primarily:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Allocated during runtime"
+      },
+      {
+        "label": "B",
+        "text": "Object-based"
+      },
+      {
+        "label": "C",
+        "text": "Function-call-based and mostly stack-driven"
+      },
+      {
+        "label": "D",
+        "text": "Shared among all functions"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "type": "MCQ",
+    "question": "In Python's Object-Oriented model, if a variable is defined inside a class but outside any methods (a class variable), how is its memory handled?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The memory is only allocated if the variable is accessed by a method"
+      },
+      {
+        "label": "B",
+        "text": "Each object creates a private copy of the variable in its own memory"
+      },
+      {
+        "label": "C",
+        "text": "The variable is stored in a temporary cache and deleted after one use"
+      },
+      {
+        "label": "D",
+        "text": "The memory is shared across all objects created from that class"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "type": "MCQ",
+    "question": "Python is described as a versatile language suitable for artificial intelligence, web development, and data analysis. What helps facilitate this wide range of use cases?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its design as a low-level language for hardware drivers"
+      },
+      {
+        "label": "B",
+        "text": "The absence of community support and external documentation"
+      },
+      {
+        "label": "C",
+        "text": "An extensive standard library and a large ecosystem of third-party frameworks"
+      },
+      {
+        "label": "D",
+        "text": "The strict limitation to a single programming paradigm"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "type": "MCQ",
+    "question": "Which method is called when you print an object?",
+    "options": [
+      {
+        "label": "A",
+        "text": "print"
+      },
+      {
+        "label": "B",
+        "text": "display"
+      },
+      {
+        "label": "C",
+        "text": "str"
+      },
+      {
+        "label": "D",
+        "text": "show"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "type": "MCQ",
+    "question": "Can Python support both procedural and object-oriented programming?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes"
+      },
+      {
+        "label": "B",
+        "text": "No"
+      },
+      {
+        "label": "C",
+        "text": "Only procedural"
+      },
+      {
+        "label": "D",
+        "text": "Only object-oriented"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "type": "MCQ",
+    "question": "According to Python's internal memory management, what is the conceptual relationship between a variable and an object?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Variables and objects are identical components stored in the same memory slot"
+      },
+      {
+        "label": "B",
+        "text": "Objects are entries in a system table while variables are chunks of memory"
+      },
+      {
+        "label": "C",
+        "text": "Variables are system table entries that link to objects in memory via pointers"
+      },
+      {
+        "label": "D",
+        "text": "Variables are stored in the CPU cache while objects are stored on the hard drive"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "type": "MCQ",
+    "question": "What is the file extension for Python files?",
+    "options": [
+      {
+        "label": "A",
+        "text": ".file"
+      },
+      {
+        "label": "B",
+        "text": ".py"
+      },
+      {
+        "label": "C",
+        "text": ".ptn"
+      },
+      {
+        "label": "D",
+        "text": ".pyt"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "type": "MCQ",
+    "question": "How does the Python programming language handle Object-Oriented Programming (OOP) in comparison to languages like Ruby or Java?",
+    "options": [
+      {
+        "label": "A",
+        "text": "OOP is not supported at all"
+      },
+      {
+        "label": "B",
+        "text": "OOP is an option rather than a requirement"
+      },
+      {
+        "label": "C",
+        "text": "OOP is only available in specific paid versions"
+      },
+      {
+        "label": "D",
+        "text": "OOP is mandatory for every project"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "type": "MCQ",
+    "question": "Which feature of the Python language allows a programmer to use variables without explicitly declaring their data types, such as integers or strings, in advance?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dynamic Typing"
+      },
+      {
+        "label": "B",
+        "text": "Manual Type Definition"
+      },
+      {
+        "label": "C",
+        "text": "Static Typing"
+      },
+      {
+        "label": "D",
+        "text": "Explicit Typing"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "type": "MCQ",
+    "question": "Polymorphism allows:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Classes to have multiple constructors"
+      },
+      {
+        "label": "B",
+        "text": "One interface, many forms"
+      },
+      {
+        "label": "C",
+        "text": "Objects to store different types"
+      },
+      {
+        "label": "D",
+        "text": "Code reuse"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "type": "MCQ",
+    "question": "Which syntax in Python represents object instantiation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ClassName{}"
+      },
+      {
+        "label": "B",
+        "text": "new ClassName()"
+      },
+      {
+        "label": "C",
+        "text": "ClassName()"
+      },
+      {
+        "label": "D",
+        "text": "create ClassName"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "type": "MCQ",
+    "question": "Which method is used to destroy an object in python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "__Del__"
+      },
+      {
+        "label": "B",
+        "text": "__delete__"
+      },
+      {
+        "label": "C",
+        "text": "__end__"
+      },
+      {
+        "label": "D",
+        "text": "__del__"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "type": "MCQ",
+    "question": "Which built-in method acts like a destructor in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "destroy()"
+      },
+      {
+        "label": "B",
+        "text": "delete()"
+      },
+      {
+        "label": "C",
+        "text": "del()"
+      },
+      {
+        "label": "D",
+        "text": "destructor()"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "type": "MCQ",
+    "question": "Which of the following is used for inheritance in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "class Child inherits Parent"
+      },
+      {
+        "label": "B",
+        "text": "class Child(Parent)"
+      },
+      {
+        "label": "C",
+        "text": "class Child <- Parent"
+      },
+      {
+        "label": "D",
+        "text": "class Parent : Child"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "type": "MCQ",
+    "question": "When did Guido van Rossum start working on the Python programming language?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1980"
+      },
+      {
+        "label": "B",
+        "text": "1985"
+      },
+      {
+        "label": "C",
+        "text": "1989"
+      },
+      {
+        "label": "D",
+        "text": "1991"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "type": "MCQ",
+    "question": "In terms of language design and developer productivity, how does Python distinguish itself from languages like Java, Ruby, or C++?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Python requires extensive intermediate compile and link steps, which provides a more interactive experience than traditional scripting tools."
+      },
+      {
+        "label": "B",
+        "text": "Python code is typically three to five times larger than equivalent Java code to ensure it remains readable across platforms."
+      },
+      {
+        "label": "C",
+        "text": "Python provides a simple syntax where code is often much smaller than equivalent C++ code, and it makes Object-Oriented Programming optional."
+      },
+      {
+        "label": "D",
+        "text": "Python mandates the use of Object-Oriented Programming (OOP) for every project, making it more structured than C++ or Ruby."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "type": "MCQ",
+    "question": "Python is often referred to as a 'glue' language because of its ability to integrate with other programming languages. How is this feature typically utilized in the software development lifecycle for systems with high-performance requirements?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Python requires all external components to be compiled into Java bytecode before they can be linked to a Python script."
+      },
+      {
+        "label": "B",
+        "text": "The system must use Visual Basic for the frontend while Python manages the low-level memory allocation of C components."
+      },
+      {
+        "label": "C",
+        "text": "The system is developed entirely in C and then translated into Python syntax for final user delivery."
+      },
+      {
+        "label": "D",
+        "text": "The system is initially built in Python to leverage rapid development, and then performance-critical pieces are moved to C for delivery."
+      }
+    ],
+    "user_code": "",
+    "marks": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "type": "MCQ",
+    "question": "Which of the following is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Comments increase execution time"
+      },
+      {
+        "label": "B",
+        "text": "Comments help in code readability"
+      },
+      {
+        "label": "C",
+        "text": "Comments are mandatory"
+      },
+      {
+        "label": "D",
+        "text": "Comments must be inside functions"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "type": "MCQ",
+    "question": "what is the ouput of give code: x = 1 del x x = 2 print(x)",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "None"
+      },
+      {
+        "label": "D",
+        "text": "Error"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "type": "MCQ",
+    "question": "Which of the following is not a valid logical operator in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "and"
+      },
+      {
+        "label": "B",
+        "text": "or"
+      },
+      {
+        "label": "C",
+        "text": "not"
+      },
+      {
+        "label": "D",
+        "text": "xor"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "type": "MCQ",
+    "question": "Which command installs Jupyter Notebook?",
+    "options": [
+      {
+        "label": "A",
+        "text": "pip install notebook"
+      },
+      {
+        "label": "B",
+        "text": "python install jupyter"
+      },
+      {
+        "label": "C",
+        "text": "pip get jupyter"
+      },
+      {
+        "label": "D",
+        "text": "py setup notebook"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "type": "MCQ",
+    "question": "Which character is used for writing single-line comments in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "//"
+      },
+      {
+        "label": "B",
+        "text": "#"
+      },
+      {
+        "label": "C",
+        "text": "/*"
+      },
+      {
+        "label": "D",
+        "text": "--"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 26,
+    "type": "MCQ",
+    "question": "Which IDE provides both code intelligence and project management features?",
+    "options": [
+      {
+        "label": "A",
+        "text": "IDLE"
+      },
+      {
+        "label": "B",
+        "text": "Notepad"
+      },
+      {
+        "label": "C",
+        "text": "PyCharm"
+      },
+      {
+        "label": "D",
+        "text": "Vim"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 27,
+    "type": "MCQ",
+    "question": "Which of the following is not a correct way to comment multiple lines?",
+    "options": [
+      {
+        "label": "A",
+        "text": "''' This is a comment '''"
+      },
+      {
+        "label": "B",
+        "text": "\"\"\" This is a comment \"\"\""
+      },
+      {
+        "label": "C",
+        "text": "# This is"
+      },
+      {
+        "label": "D",
+        "text": "// This is a comment"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 28,
+    "type": "MCQ",
+    "question": "What does the command pip list do?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lists Python versions"
+      },
+      {
+        "label": "B",
+        "text": "Lists all installed Python interpreters"
+      },
+      {
+        "label": "C",
+        "text": "Lists installed packages"
+      },
+      {
+        "label": "D",
+        "text": "Lists virtual environments"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 29,
+    "type": "MCQ",
+    "question": "Choose the incorrect variable declaration:",
+    "options": [
+      {
+        "label": "A",
+        "text": "name = \"Python\""
+      },
+      {
+        "label": "B",
+        "text": "_1st = \"Hello\""
+      },
+      {
+        "label": "C",
+        "text": "1st = \"Hi\""
+      },
+      {
+        "label": "D",
+        "text": "name1 = \"World\""
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 30,
+    "type": "MCQ",
+    "question": "Which one is True?",
+    "options": [
+      {
+        "label": "A",
+        "text": "bool(\"\") == bool([])"
+      },
+      {
+        "label": "B",
+        "text": "bool(1) == bool(\"0\")"
+      },
+      {
+        "label": "C",
+        "text": "bool(None) == bool(0)"
+      },
+      {
+        "label": "D",
+        "text": "All of the above"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 31,
+    "type": "MCQ",
+    "question": "Which of the following is a literal in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "if"
+      },
+      {
+        "label": "B",
+        "text": "\"hello\""
+      },
+      {
+        "label": "C",
+        "text": "def"
+      },
+      {
+        "label": "D",
+        "text": "print"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 32,
+    "type": "MCQ",
+    "question": "What is the data type of the expression bool(5 < 10) in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "int"
+      },
+      {
+        "label": "B",
+        "text": "bool"
+      },
+      {
+        "label": "C",
+        "text": "float"
+      },
+      {
+        "label": "D",
+        "text": "str"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 33,
+    "type": "MCQ",
+    "question": "what id the output is of the following code? x = 5 x = \"\"hello\"\" print(x)",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "hello"
+      },
+      {
+        "label": "C",
+        "text": "Error"
+      },
+      {
+        "label": "D",
+        "text": "None"
+      }
+    ],
+    "user_code": "",
+    "marks": "0/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 34,
+    "type": "MCQ",
+    "question": "What type of token is the keyword \"while\"?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Identifier"
+      },
+      {
+        "label": "B",
+        "text": "Literal"
+      },
+      {
+        "label": "C",
+        "text": "Keyword"
+      },
+      {
+        "label": "D",
+        "text": "Operator"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 35,
+    "type": "MCQ",
+    "question": "What command removes an installed package using pip?",
+    "options": [
+      {
+        "label": "A",
+        "text": "pip remove <package>"
+      },
+      {
+        "label": "B",
+        "text": "pip delete <package>"
+      },
+      {
+        "label": "C",
+        "text": "pip uninstall <package>"
+      },
+      {
+        "label": "D",
+        "text": "pip purge <package>"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "type": "MCQ",
+    "question": "In Python, which of the following statements correctly describes the lifecycle and behavior of variables?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Type constraints are associated with variable names rather than the objects they reference."
+      },
+      {
+        "label": "B",
+        "text": "Variables are automatically initialized to zero or an empty string if they are not explicitly assigned."
+      },
+      {
+        "label": "C",
+        "text": "Variables must be declared with a specific type before they can be assigned a value."
+      },
+      {
+        "label": "D",
+        "text": "A variable is created only when it is first assigned a value and must be assigned before it is referenced."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "type": "MCQ",
+    "question": "What will be the output of the following Python code snippet? var_a = -10.5 var_b = 0.0 print(bool(var_a), bool(var_b))",
+    "options": [
+      {
+        "label": "A",
+        "text": "False True"
+      },
+      {
+        "label": "B",
+        "text": "True False"
+      },
+      {
+        "label": "C",
+        "text": "False False"
+      },
+      {
+        "label": "D",
+        "text": "True True"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 38,
+    "type": "MCQ",
+    "question": "In the Python programming language, how is data type information handled when a variable is assigned a value?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The variable name itself holds a fixed type constraint once it is first initialized."
+      },
+      {
+        "label": "B",
+        "text": "Type information resides with the object being referenced rather than the variable name."
+      },
+      {
+        "label": "C",
+        "text": "Variables must be explicitly declared with a data type before an assignment can occur."
+      },
+      {
+        "label": "D",
+        "text": "The interpreter assigns a type to the variable name based on the script's filename."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "type": "MCQ",
+    "question": "When the Python software package is installed on a machine, which specific components are minimally generated to enable program execution?",
+    "options": [
+      {
+        "label": "A",
+        "text": "An interpreter and a support library."
+      },
+      {
+        "label": "B",
+        "text": "A graphical user interface and a text editor."
+      },
+      {
+        "label": "C",
+        "text": "A compiler and a source code optimizer."
+      },
+      {
+        "label": "D",
+        "text": "A web browser extension and a database driver."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 40,
+    "type": "MCQ",
+    "question": "Consider the following Python code logic: a = 0 b = 5 if not a and b: print(\"Success\") else: print(\"Failure\") What is the resulting output?",
+    "options": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "Success"
+      },
+      {
+        "label": "C",
+        "text": "Failure"
+      },
+      {
+        "label": "D",
+        "text": "False"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 41,
+    "type": "MCQ",
+    "question": "What occurs within the Python system when the following sequence of statements is executed? x = 500 x = 'Data'",
+    "options": [
+      {
+        "label": "A",
+        "text": "The generic name x is reassigned from an integer object to a string object, as type constraints belong to objects rather than names."
+      },
+      {
+        "label": "B",
+        "text": "A new variable named x is created in a separate module to store the string while the first x remains an integer reference."
+      },
+      {
+        "label": "C",
+        "text": "Python raises a TypeError because the name x was already initialized as an integer and cannot be assigned to a different object type."
+      },
+      {
+        "label": "D",
+        "text": "The variable x is updated to a string type, and the integer 500 is automatically converted to a string format to maintain type consistency."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 42,
+    "type": "MCQ",
+    "question": "Which of the following sets contains only valid Python variable names based on the language's established syntax rules?",
+    "options": [
+      {
+        "label": "A",
+        "text": "_my_var, var2, NAME"
+      },
+      {
+        "label": "B",
+        "text": "first name, 4points, total$"
+      },
+      {
+        "label": "C",
+        "text": "2nd_var, my-var, !price"
+      },
+      {
+        "label": "D",
+        "text": "user@name, var#1, 7heaven"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 43,
+    "type": "MCQ",
+    "question": "Analyze the following Python code block: # Calculating the area \"\"\" This section performs a simple multiplication \"\"\" width = 10 height = 5 area = width * height print(area) What is the relationship between the comments and the execution of this program?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The hashtag symbol (#) creates a mandatory logical break that slows down the code execution."
+      },
+      {
+        "label": "B",
+        "text": "The triple-quoted string is automatically assigned to a default metadata variable by the interpreter."
+      },
+      {
+        "label": "C",
+        "text": "The multi-line string literal must be explicitly converted to a docstring before it can be ignored."
+      },
+      {
+        "label": "D",
+        "text": "The comments and unassigned string literals have no impact on the program's execution or final outcome."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 44,
+    "type": "MCQ",
+    "question": "In Python, what is the underlying mechanism that allows a triple-quoted string literal (such as \"\"\" comment \"\"\") to function as a multi-line comment even though it is technically a string?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Python converts triple-quoted strings into hashtag comments during the initial code parsing phase."
+      },
+      {
+        "label": "B",
+        "text": "Python is designed to ignore any string literals that are not assigned to a variable during execution."
+      },
+      {
+        "label": "C",
+        "text": "Python treats all unassigned string literals as mandatory hidden variable declarations with a value of None."
+      },
+      {
+        "label": "D",
+        "text": "Python requires triple-quoted strings to be placed at the very end of a script to be treated as comments."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 45,
+    "type": "MCQ",
+    "question": "Consider the following Python code snippet. What will be the final output? a = 10 b = 0 c = -1.5 if a and b: print('First') elif not b and c: print('Second') else: print('Third')",
+    "options": [
+      {
+        "label": "A",
+        "text": "First"
+      },
+      {
+        "label": "B",
+        "text": "Third"
+      },
+      {
+        "label": "C",
+        "text": "False"
+      },
+      {
+        "label": "D",
+        "text": "Second"
+      }
+    ],
+    "user_code": "",
+    "marks": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": 46,
+    "type": "MCQ",
+    "question": "What is the result of tuple(\"a,b\".split(\",\"))?",
+    "options": [
+      {
+        "label": "A",
+        "text": "('a', 'b')"
+      },
+      {
+        "label": "B",
+        "text": "('a,b')"
+      },
+      {
+        "label": "C",
+        "text": "a,b"
+      },
+      {
+        "label": "D",
+        "text": "['a', 'b']"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 47,
+    "type": "MCQ",
+    "question": "Which is a valid way to check if two strings are different?",
+    "options": [
+      {
+        "label": "A",
+        "text": "str1 =! str2"
+      },
+      {
+        "label": "B",
+        "text": "str1 <> str2"
+      },
+      {
+        "label": "C",
+        "text": "str1 != str2"
+      },
+      {
+        "label": "D",
+        "text": "str1 not= str2"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 48,
+    "type": "MCQ",
+    "question": "Can int() convert the string \"hello\" to an integer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes"
+      },
+      {
+        "label": "B",
+        "text": "No"
+      },
+      {
+        "label": "C",
+        "text": "Only if it\u2019s \"0\""
+      },
+      {
+        "label": "D",
+        "text": "Only if it\u2019s positive"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 49,
+    "type": "MCQ",
+    "question": "What does float(\"-1.23\") return in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "-1.23"
+      },
+      {
+        "label": "B",
+        "text": "1.23"
+      },
+      {
+        "label": "C",
+        "text": "'-1.23'"
+      },
+      {
+        "label": "D",
+        "text": "Error"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 50,
+    "type": "MCQ",
+    "question": "What does int(\" 42 \") return in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "42"
+      },
+      {
+        "label": "B",
+        "text": "42.0"
+      },
+      {
+        "label": "C",
+        "text": "Raises ValueError"
+      },
+      {
+        "label": "D",
+        "text": "Error"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 51,
+    "type": "MCQ",
+    "question": "Consider the following Python code: score = input(\"Enter score: \") # Assume the user enters 50 final_score = int(score) + 10 print(final_score) What is the primary reason the int() function is used in this logic?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To display the user's score on the screen"
+      },
+      {
+        "label": "B",
+        "text": "To ensure that the input is stored as a string throughout the program"
+      },
+      {
+        "label": "C",
+        "text": "To determine the current data type of the score variable"
+      },
+      {
+        "label": "D",
+        "text": "To convert the string input into an integer so mathematical addition can be performed"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 52,
+    "type": "MCQ",
+    "question": "Given x = \"99\", what will be the result of the expression int(x) * 2 in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "198"
+      },
+      {
+        "label": "B",
+        "text": "\"198\""
+      },
+      {
+        "label": "C",
+        "text": "99"
+      },
+      {
+        "label": "D",
+        "text": "18"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 53,
+    "type": "MCQ",
+    "question": "What value is produced when the string \"-10\" is converted to an integer using int() in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "-10"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "\"-10\""
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 54,
+    "type": "MCQ",
+    "question": "What is the result of len(str(2.5)) in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "2"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "4"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 55,
+    "type": "MCQ",
+    "question": "What is the result of converting the string \"-3.14\" using the float() function in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "-3.14"
+      },
+      {
+        "label": "B",
+        "text": "\"-3.14\""
+      },
+      {
+        "label": "C",
+        "text": "Error"
+      },
+      {
+        "label": "D",
+        "text": "0"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 56,
+    "type": "MCQ",
+    "question": "What will int(9.999) return?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "9.999"
+      },
+      {
+        "label": "D",
+        "text": "11"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 57,
+    "type": "MCQ",
+    "question": "What will be the boolean result of the following Python expression? val = (25 != 25) == (100 > 50) print(val)",
+    "options": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "Error"
+      },
+      {
+        "label": "C",
+        "text": "None"
+      },
+      {
+        "label": "D",
+        "text": "False"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 58,
+    "type": "MCQ",
+    "question": "What is the output of printing int(9.9999) directly in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9.9999"
+      },
+      {
+        "label": "B",
+        "text": "10"
+      },
+      {
+        "label": "C",
+        "text": "9"
+      },
+      {
+        "label": "D",
+        "text": "Error"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 59,
+    "type": "MCQ",
+    "question": "What does str(10.5) + str(0.5) return in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "11"
+      },
+      {
+        "label": "B",
+        "text": "10.5 0.5"
+      },
+      {
+        "label": "C",
+        "text": "'10.50.5'"
+      },
+      {
+        "label": "D",
+        "text": "Error"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 60,
+    "type": "MCQ",
+    "question": "In Python, what is the resulting data type and value when an integer and a float are added together, such as in the following code? x = 7 y = 3.0 z = x + y print(z) print(type(z))",
+    "options": [
+      {
+        "label": "A",
+        "text": "10.0, <class 'float'>"
+      },
+      {
+        "label": "B",
+        "text": "10.0, <class 'int'>"
+      },
+      {
+        "label": "C",
+        "text": "10, <class 'int'>"
+      },
+      {
+        "label": "D",
+        "text": "73.0, <class 'float'>"
+      }
+    ],
+    "user_code": "",
+    "marks": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": 61,
+    "type": "MCQ",
+    "question": "What output is produced by the Python f-string f\"Temp: {temp:03d}\" when temp = 7?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Temp: 007"
+      },
+      {
+        "label": "B",
+        "text": "Temp: 7"
+      },
+      {
+        "label": "C",
+        "text": "Temp: 07"
+      },
+      {
+        "label": "D",
+        "text": "Error"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 62,
+    "type": "MCQ",
+    "question": "What happens when the statement data[input(\"Key: \")] = int(input(\"Value: \")) + 5 is executed and the user enters \"x\" as the key and 10 as the value?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adds \"x\": 15"
+      },
+      {
+        "label": "B",
+        "text": "Adds \"x\": 10"
+      },
+      {
+        "label": "C",
+        "text": "Adds 15: \"x\""
+      },
+      {
+        "label": "D",
+        "text": "Error"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 63,
+    "type": "MCQ",
+    "question": "What happens if you use data[input()] = int(input()) and the user types \"num\" and \"abc\"?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Raises ValueError"
+      },
+      {
+        "label": "B",
+        "text": "Adds \"num\": \"abc\" to data"
+      },
+      {
+        "label": "C",
+        "text": "Adds \"abc\": \"num\" to data"
+      },
+      {
+        "label": "D",
+        "text": "Error"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 64,
+    "type": "MCQ",
+    "question": "Which specific function is used in Python to convert the string output of input() into a whole number so that arithmetic operations can be performed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "str()"
+      },
+      {
+        "label": "B",
+        "text": "type()"
+      },
+      {
+        "label": "C",
+        "text": "float()"
+      },
+      {
+        "label": "D",
+        "text": "int()"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 65,
+    "type": "MCQ",
+    "question": "What value is returned by input(\"Text: \") when the user enters Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "P y t hon"
+      },
+      {
+        "label": "B",
+        "text": "\"Python\""
+      },
+      {
+        "label": "C",
+        "text": "' Pytho '"
+      },
+      {
+        "label": "D",
+        "text": "ValueError"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 66,
+    "type": "MCQ",
+    "question": "In Python, what is the underlying reason why the following code would fail to perform a mathematical addition if the user enters 5? val = input(\"Enter a number: \") print(val + 10)",
+    "options": [
+      {
+        "label": "A",
+        "text": "The input() function always returns the user's entry as a string, even if digits are entered."
+      },
+      {
+        "label": "B",
+        "text": "The input() function can only accept alphabetic characters as valid arguments."
+      },
+      {
+        "label": "C",
+        "text": "Variable names like 'val' are reserved for string data only in Python 3."
+      },
+      {
+        "label": "D",
+        "text": "Python does not allow the addition of an integer to a variable that has not been specifically initialized with a zero."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 67,
+    "type": "MCQ",
+    "question": "If a user runs the following Python code and enters the sequence 456, what will be the resulting output? num = tuple(input(\"Enter number: \")) print(num)",
+    "options": [
+      {
+        "label": "A",
+        "text": "(4, 5, 6)"
+      },
+      {
+        "label": "B",
+        "text": "('4', '5', '6')"
+      },
+      {
+        "label": "C",
+        "text": "(456)"
+      },
+      {
+        "label": "D",
+        "text": "('456',)"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 68,
+    "type": "MCQ",
+    "question": "Consider the following Python code snippet: x, y = input(\"Enter two numbers: \").split() print(type(x), type(y)) If the user enters 5 10 at the prompt, what data types will be displayed for the variables x and y?",
+    "options": [
+      {
+        "label": "A",
+        "text": "<class 'int'> <class 'int'>"
+      },
+      {
+        "label": "B",
+        "text": "<class 'float'> <class 'float'>"
+      },
+      {
+        "label": "C",
+        "text": "<class 'str'> <class 'str'>"
+      },
+      {
+        "label": "D",
+        "text": "<class 'list'> <class 'list'>"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 69,
+    "type": "MCQ",
+    "question": "What is the expected output of the following Python code if the user enters the number 10 when prompted? val = input(\"Enter a value: \") print(type(val)) print(val + val)",
+    "options": [
+      {
+        "label": "A",
+        "text": "<class 'int'> 1010"
+      },
+      {
+        "label": "B",
+        "text": "<class 'str'> 1010"
+      },
+      {
+        "label": "C",
+        "text": "<class 'int'> 20"
+      },
+      {
+        "label": "D",
+        "text": "<class 'str'> 20"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 72,
+    "type": "MCQ",
+    "question": "Write a Python function to format a number n as 'n units' using the dot format method.",
+    "options": [],
+    "user_code": "",
+    "marks": "5/5",
+    "difficulty": "easy"
+  },
+  {
+    "id": 73,
+    "type": "MCQ",
+    "question": "What is the result of '123'.zfill(5)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "'00123'"
+      },
+      {
+        "label": "B",
+        "text": "'12300'"
+      },
+      {
+        "label": "C",
+        "text": "'123'"
+      },
+      {
+        "label": "D",
+        "text": "'000123'"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 74,
+    "type": "MCQ",
+    "question": "\"abc123\".isalnum() returns:",
+    "options": [
+      {
+        "label": "A",
+        "text": "True"
+      },
+      {
+        "label": "B",
+        "text": "False"
+      },
+      {
+        "label": "C",
+        "text": "None"
+      },
+      {
+        "label": "D",
+        "text": "Error"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 75,
+    "type": "MCQ",
+    "question": "Consider the Python string `s = \"communication\"`. What is the output of the slicing operation `print(s[1:8:3])`?",
+    "options": [
+      {
+        "label": "A",
+        "text": "onu"
+      },
+      {
+        "label": "B",
+        "text": "ouc"
+      },
+      {
+        "label": "C",
+        "text": "omc"
+      },
+      {
+        "label": "D",
+        "text": "mmi"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 76,
+    "type": "MCQ",
+    "question": "In Python, strings are categorized as immutable sequences. What does this categorization specifically mean regarding how strings are handled in memory?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Strings are stored as unordered collections where items are accessed by unique keys."
+      },
+      {
+        "label": "B",
+        "text": "Python strings function exactly like character arrays in C and require manual memory management."
+      },
+      {
+        "label": "C",
+        "text": "The characters in a string can be modified in-place to update the existing object."
+      },
+      {
+        "label": "D",
+        "text": "Characters have a left-to-right positional order and cannot be changed once the string is created."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 79,
+    "type": "MCQ",
+    "question": "A security system validates passcodes by comparing specific character positions and checking for keywords. Write a program that reads a string passcode, a positive index i, and a negative index j. The passcode is considered 'VALID' only if the character at positive index i is identical to the character at negative index j, and the substring 'secret' exists within the passcode.",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 80,
+    "type": "MCQ",
+    "question": "In Python, given the initial list 'nums = [10, 20, 30, 40, 50]', what is the state of the list after the slice assignment 'nums[1:4] = [99]' is performed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "[10, 99, 20, 30, 40, 50]"
+      },
+      {
+        "label": "B",
+        "text": "[10, 99, 40, 50]"
+      },
+      {
+        "label": "C",
+        "text": "[10, 99, 50]"
+      },
+      {
+        "label": "D",
+        "text": "[10, 20, 99, 50]"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 81,
+    "type": "MCQ",
+    "question": "What is the specific result when the following expression is executed in Python? [1, 2] + list(\"34\")",
+    "options": [
+      {
+        "label": "A",
+        "text": "[1, 2, 34]"
+      },
+      {
+        "label": "B",
+        "text": "[1, 2, '3', '4']"
+      },
+      {
+        "label": "C",
+        "text": "TypeError"
+      },
+      {
+        "label": "D",
+        "text": "[1, 2, '34']"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 82,
+    "type": "MCQ",
+    "question": "Which characteristic of Python lists allows them to support operations like index assignment and in-place deletion, which are not possible with strings?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They are sequence types that support the use of the repetition operator."
+      },
+      {
+        "label": "B",
+        "text": "They are heterogeneous and can contain mixed data types."
+      },
+      {
+        "label": "C",
+        "text": "They are ordered collections that maintain a positional relationship."
+      },
+      {
+        "label": "D",
+        "text": "They are mutable objects that can be modified directly at their memory offset."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 85,
+    "type": "MCQ",
+    "question": "Write a function to replace all vowels in a string with a given character. Vowels include: a, e, i, o, u (both lowercase and uppercase). Input Format : First line: A single string s (can contain spaces and punctuation). Second line: A single character c (replacement character). Output Format : Print the modified string with all vowels replaced by the given character.",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 86,
+    "type": "MCQ",
+    "question": "What is the expected result of executing this Python code snippet? word_tup = tuple('python') print(word_tup[-4:-1])",
+    "options": [
+      {
+        "label": "A",
+        "text": "('y', 't', 'h')"
+      },
+      {
+        "label": "B",
+        "text": "('t', 'h', 'o', 'n')"
+      },
+      {
+        "label": "C",
+        "text": "('t', 'h', 'o')"
+      },
+      {
+        "label": "D",
+        "text": "('h', 'o', 'n')"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 87,
+    "type": "MCQ",
+    "question": "What is the specific result when the following expression is executed in Python? [1, 2] + list(\"34\")",
+    "options": [
+      {
+        "label": "A",
+        "text": "[1, 2, 34]"
+      },
+      {
+        "label": "B",
+        "text": "[1, 2, '3', '4']"
+      },
+      {
+        "label": "C",
+        "text": "TypeError"
+      },
+      {
+        "label": "D",
+        "text": "[1, 2, '34']"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 88,
+    "type": "MCQ",
+    "question": "What will be the final value of 'L2' after the following Python code is executed? L1 = [1, 2] L2 = L1 + list(\"34\") print(L2)",
+    "options": [
+      {
+        "label": "A",
+        "text": "[1, 2, '34']"
+      },
+      {
+        "label": "B",
+        "text": "[1, 2, 34]"
+      },
+      {
+        "label": "C",
+        "text": "[1, 2, '3', '4']"
+      },
+      {
+        "label": "D",
+        "text": "[1, 2, [3, 4]]"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 89,
+    "type": "MCQ",
+    "question": "In Python, which of the following dictionary initializations will raise a TypeError due to a violation of the rules regarding dictionary keys? # Option A data1 = {101: 'Alpha', 102: 'Beta'} # Option B data2 = {'items': [1, 2, 3]} # Option C data3 = {[1, 2]: 'coordinates'} # Option D data4 = {'id': 50, 'id': 60}",
+    "options": [
+      {
+        "label": "A",
+        "text": "Option C"
+      },
+      {
+        "label": "B",
+        "text": "Option A"
+      },
+      {
+        "label": "C",
+        "text": "Option D"
+      },
+      {
+        "label": "D",
+        "text": "Option B"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 92,
+    "type": "MCQ",
+    "question": "Write a function to count how many times a given substring occurs in the main string. Input Format: First line: A string s (the main string). Second line: A string sub (the substring to search for). Output Format: Print a single integer: the number of times the substring appears in the main string (including overlapping matches).",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 93,
+    "type": "MCQ",
+    "question": "What does {'a': 1, 'a': 2} become in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "{'a': 1}"
+      },
+      {
+        "label": "B",
+        "text": "{'a': 2}"
+      },
+      {
+        "label": "C",
+        "text": "{'a': [1, 2]}"
+      },
+      {
+        "label": "D",
+        "text": "Error"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 94,
+    "type": "MCQ",
+    "question": "What is the output of the following code? print(tuple(\"abc\"))",
+    "options": [
+      {
+        "label": "A",
+        "text": "['a', 'b', 'c']"
+      },
+      {
+        "label": "B",
+        "text": "('a', 'b', 'c')"
+      },
+      {
+        "label": "C",
+        "text": "\"abc\""
+      },
+      {
+        "label": "D",
+        "text": "('abc',)"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 95,
+    "type": "MCQ",
+    "question": "What does {'x': [1, 2]}['x'][1] return in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "[1, 2]"
+      },
+      {
+        "label": "D",
+        "text": "Error"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 96,
+    "type": "MCQ",
+    "question": "Which statement accurately describes the constraints placed on keys when creating a Python dictionary?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Keys must be integers representing the physical index of the value in memory."
+      },
+      {
+        "label": "B",
+        "text": "Keys must be unique and belong to an immutable data type, such as strings or numbers."
+      },
+      {
+        "label": "C",
+        "text": "Keys can be of any data type, including mutable types like lists, as long as they are unique."
+      },
+      {
+        "label": "D",
+        "text": "Multiple keys can have the same name as long as they are associated with different values."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 99,
+    "type": "MCQ",
+    "question": "You are given an integer value representing the temperature in degrees Celsius. Based on the temperature, classify and print the weather condition as follows: Print \"Freezing\" if the temperature is less than 0 Print \"Cold\" if the temperature is between 0 and 15 (inclusive) Print \"Warm\" if the temperature is between 16 and 30 (inclusive) Print \"Hot\" if the temperature is greater than 30 Input Format: A single integer T \u2014 the temperature in Celsius. Output Format : Print one of the following:\"Freezing\" ,\"Cold\" , \"Warm\" and \"Hot\"",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 100,
+    "type": "MCQ",
+    "question": "What does x = -2 if x < 0: if x > -5: print('Close') else: print(\"Error\") else: print(\"Far\") output in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Close"
+      },
+      {
+        "label": "B",
+        "text": "Nothing"
+      },
+      {
+        "label": "C",
+        "text": "Error"
+      },
+      {
+        "label": "D",
+        "text": "Far"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 101,
+    "type": "MCQ",
+    "question": "In Python multi-way branching, which of the following components is mandatory to start a valid conditional statement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "else"
+      },
+      {
+        "label": "B",
+        "text": "if"
+      },
+      {
+        "label": "C",
+        "text": "elif"
+      },
+      {
+        "label": "D",
+        "text": "then"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 102,
+    "type": "MCQ",
+    "question": "Which output will the following Python code produce? score = 85 if score >= 70: if score >= 90: print(\"Excellent\") else: print(\"Good\") else: print(\"Pass\")",
+    "options": [
+      {
+        "label": "A",
+        "text": "Excellent Good"
+      },
+      {
+        "label": "B",
+        "text": "Pass"
+      },
+      {
+        "label": "C",
+        "text": "Good"
+      },
+      {
+        "label": "D",
+        "text": "Excellent"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 103,
+    "type": "MCQ",
+    "question": "What is the result of executing this Python code? val = 5 if val > 10: if val == 5: print(\"Target Found\") else: print(\"Target Missing\")",
+    "options": [
+      {
+        "label": "A",
+        "text": "Target Missing"
+      },
+      {
+        "label": "B",
+        "text": "Target Found"
+      },
+      {
+        "label": "C",
+        "text": "An error occurs due to indentation"
+      },
+      {
+        "label": "D",
+        "text": "Nothing is printed"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 104,
+    "type": "MCQ",
+    "question": "How does using the elif statement in Python improve the structure of a program compared to using nested if-else statements?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It enables the program to check multiple conditions simultaneously."
+      },
+      {
+        "label": "B",
+        "text": "It increases readability by eliminating the need for deeply nested blocks."
+      },
+      {
+        "label": "C",
+        "text": "It allows the code to bypass the initial if condition."
+      },
+      {
+        "label": "D",
+        "text": "It requires less memory than a ternary operator."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 105,
+    "type": "MCQ",
+    "question": "How does using the elif statement in Python improve the structure of a program compared to using nested if-else statements?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It enables the program to check multiple conditions simultaneously."
+      },
+      {
+        "label": "B",
+        "text": "It increases readability by eliminating the need for deeply nested blocks."
+      },
+      {
+        "label": "C",
+        "text": "It allows the code to bypass the initial if condition."
+      },
+      {
+        "label": "D",
+        "text": "It requires less memory than a ternary operator."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 106,
+    "type": "MCQ",
+    "question": "Consider the following Python logic. What is the final output? a = 10 b = 20 if a < 15: if b > 25: print(\"Condition Alpha\") else: if a + b == 30: print(\"Condition Beta\") else: print(\"Condition Gamma\") else: print(\"Condition Delta\")",
+    "options": [
+      {
+        "label": "A",
+        "text": "Condition Beta"
+      },
+      {
+        "label": "B",
+        "text": "Condition Alpha"
+      },
+      {
+        "label": "C",
+        "text": "Condition Delta"
+      },
+      {
+        "label": "D",
+        "text": "Condition Gamma"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 107,
+    "type": "MCQ",
+    "question": "Consider a Python script where multiple conditions in an if-elif-else structure could potentially evaluate to True for the variable i = 20. What is the resulting output? i = 20 if i >= 10: print(\"Level 1\") elif i >= 15: print(\"Level 2\") elif i >= 20: print(\"Level 3\") else: print(\"Level 0\")",
+    "options": [
+      {
+        "label": "A",
+        "text": "Level 3"
+      },
+      {
+        "label": "B",
+        "text": "Level 1"
+      },
+      {
+        "label": "C",
+        "text": "Level 2"
+      },
+      {
+        "label": "D",
+        "text": "Level 1, Level 2, and Level 3"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 108,
+    "type": "MCQ",
+    "question": "Consider a Python script where multiple conditions in an if-elif-else structure could potentially evaluate to True for the variable i = 20. What is the resulting output? i = 20 if i >= 10: print(\"Level 1\") elif i >= 15: print(\"Level 2\") elif i >= 20: print(\"Level 3\") else: print(\"Level 0\")",
+    "options": [
+      {
+        "label": "A",
+        "text": "Level 3"
+      },
+      {
+        "label": "B",
+        "text": "Level 1"
+      },
+      {
+        "label": "C",
+        "text": "Level 2"
+      },
+      {
+        "label": "D",
+        "text": "Level 1, Level 2, and Level 3"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 111,
+    "type": "MCQ",
+    "question": "You are given the type of bank account, the withdrawal amount, and the current balance. Depending on the type of account, determine the result of a transaction using the following rules: Rules: If account_type is \"savings\": If amount > balance \u2192 Output: \"Insufficient\" Else: If amount > 25000 \u2192 Output: \"OTP Required\" Else \u2192 Output: \"Success\" If account_type is \"current\": Overdraft of \u20b910,000 is allowed. If amount \u2264 balance + 10000 \u2192 Output: \"Success with overdraft\" Else \u2192 Output: \"Declined\" Input Format: First line: a string account_type. , Second line: an integer amount. and Third line: an integer balance Output Format: A single line indicating the result of the transaction:\"Success\" , \"OTP Required\" , \"Insufficient\" , \"Success with overdraft\" and \"Declined\"",
+    "options": [],
+    "user_code": "",
+    "marks": "15/15",
+    "difficulty": "easy"
+  },
+  {
+    "id": 112,
+    "type": "MCQ",
+    "question": "What does a for loop iterate over in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A condition"
+      },
+      {
+        "label": "B",
+        "text": "A sequence (like a list, tuple, or string)"
+      },
+      {
+        "label": "C",
+        "text": "A random number"
+      },
+      {
+        "label": "D",
+        "text": "A function"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 113,
+    "type": "MCQ",
+    "question": "What does a for loop do when it iterates over a string?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Processes one character at a time"
+      },
+      {
+        "label": "B",
+        "text": "Processes the whole string at once"
+      },
+      {
+        "label": "C",
+        "text": "Skips the string"
+      },
+      {
+        "label": "D",
+        "text": "Throws an error"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 114,
+    "type": "MCQ",
+    "question": "How many times will a for loop run with range(10, 5)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "5"
+      },
+      {
+        "label": "B",
+        "text": "6"
+      },
+      {
+        "label": "C",
+        "text": "0"
+      },
+      {
+        "label": "D",
+        "text": "10"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 115,
+    "type": "MCQ",
+    "question": "What is the output of the following Python code snippet? i = 0 while i < 5: if i == 3: break print(i) i += 1",
+    "options": [
+      {
+        "label": "A",
+        "text": "0 1 2"
+      },
+      {
+        "label": "B",
+        "text": "0 1 2 3"
+      },
+      {
+        "label": "C",
+        "text": "0 1 2 3 4"
+      },
+      {
+        "label": "D",
+        "text": "1 2 3"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 116,
+    "type": "MCQ",
+    "question": "When a break statement is triggered during the execution of a Python loop, where does the program control move next?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To the beginning of the next iteration of the loop."
+      },
+      {
+        "label": "B",
+        "text": "To the very first line of the Python script."
+      },
+      {
+        "label": "C",
+        "text": "To the start of the current loop to re-check the loop condition."
+      },
+      {
+        "label": "D",
+        "text": "To the next line of code immediately following the loop block."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 117,
+    "type": "MCQ",
+    "question": "What is the output of the following Python code snippet? for i in [10, 20, 30]: if i == 40: break else: print(\"Task Complete\")",
+    "options": [
+      {
+        "label": "A",
+        "text": "10 20 30 Task Complete"
+      },
+      {
+        "label": "B",
+        "text": "No output is produced"
+      },
+      {
+        "label": "C",
+        "text": "Task Complete"
+      },
+      {
+        "label": "D",
+        "text": "40"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 118,
+    "type": "MCQ",
+    "question": "What is a primary advantage of using the Python 'for...else' structure instead of using traditional boolean flags for search operations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It improves memory management by deleting the loop variable automatically."
+      },
+      {
+        "label": "B",
+        "text": "It provides a more concise syntax by removing the need to initialize and check external state variables."
+      },
+      {
+        "label": "C",
+        "text": "It prevents the loop from raising an IndexError when a sequence is empty."
+      },
+      {
+        "label": "D",
+        "text": "It allows the loop to iterate in reverse order without extra functions."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 119,
+    "type": "MCQ",
+    "question": "In Python, under which specific condition is the block of code inside a 'for...else' statement executed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It executes only if the sequence being iterated over is completely empty."
+      },
+      {
+        "label": "B",
+        "text": "It executes only if the loop is exited prematurely via a break statement."
+      },
+      {
+        "label": "C",
+        "text": "It executes at the beginning of every iteration of the for loop."
+      },
+      {
+        "label": "D",
+        "text": "It executes only if the loop reaches the end of its sequence without encountering a break."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 120,
+    "type": "MCQ",
+    "question": "Which statement correctly describes the functional difference between the Python 'break' and 'pass' statements when used inside a loop?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Break restarts the loop from the first item, while pass terminates it entirely."
+      },
+      {
+        "label": "B",
+        "text": "Break is used to handle exceptions, while pass is used to jump to a specific label in the code."
+      },
+      {
+        "label": "C",
+        "text": "Break skips only the current iteration, while pass exits the loop to the next line of code."
+      },
+      {
+        "label": "D",
+        "text": "Break terminates the current loop structure immediately, whereas pass is a null operation that serves as a placeholder without affecting the loop's execution flow."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 124,
+    "type": "MCQ",
+    "question": "There are n couples sitting in 2n seats arranged in a row. The people and seats are represented by an integer array row where row[i] is the ID of the person sitting in the i-th seat. Couples are numbered in order: the first couple is (0, 1), the second is (2, 3), and so on. Return the minimum number of swaps so that every couple is sitting side by side. A swap consists of choosing any two people and switching their seats. Input Format : The first line contains an integer n \u2014 the number of couples. The second line contains 2n space-separated integers row[i] \u2014 the IDs of people sitting in order. Output Format : Print a single integer \u2014 the minimum number of swaps required.",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 125,
+    "type": "MCQ",
+    "question": "If a while loop with else runs infinitely, what happens to the else block?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is executed"
+      },
+      {
+        "label": "B",
+        "text": "It is skipped"
+      },
+      {
+        "label": "C",
+        "text": "It runs after each iteration"
+      },
+      {
+        "label": "D",
+        "text": "It is never reached"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 126,
+    "type": "MCQ",
+    "question": "How many times does the else block execute in a while loop?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Once for each iteration"
+      },
+      {
+        "label": "B",
+        "text": "Only if the loop completes normally"
+      },
+      {
+        "label": "C",
+        "text": "Only when the loop has a break"
+      },
+      {
+        "label": "D",
+        "text": "It executes before the loop starts"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 127,
+    "type": "MCQ",
+    "question": "In a while loop, what does continue do if the condition is updated after it?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The update is skipped"
+      },
+      {
+        "label": "B",
+        "text": "The loop terminates"
+      },
+      {
+        "label": "C",
+        "text": "The condition is reset"
+      },
+      {
+        "label": "D",
+        "text": "The else block runs"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 128,
+    "type": "MCQ",
+    "question": "If x = 5, which while condition results in exactly 5 iterations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "x > 5"
+      },
+      {
+        "label": "B",
+        "text": "x >= 5"
+      },
+      {
+        "label": "C",
+        "text": "x < 10"
+      },
+      {
+        "label": "D",
+        "text": "x == 5"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 129,
+    "type": "MCQ",
+    "question": "Where is the else block placed in a while loop?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Before the loop starts"
+      },
+      {
+        "label": "B",
+        "text": "Inside the loop body"
+      },
+      {
+        "label": "C",
+        "text": "After the loop body"
+      },
+      {
+        "label": "D",
+        "text": "Within a nested loop only"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 130,
+    "type": "MCQ",
+    "question": "What is a common use case for assert?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To validate input data"
+      },
+      {
+        "label": "B",
+        "text": "To break out of loops"
+      },
+      {
+        "label": "C",
+        "text": "To continue loop execution"
+      },
+      {
+        "label": "D",
+        "text": "To pause execution"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 131,
+    "type": "MCQ",
+    "question": "When is continue typically used?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To exit a loop early"
+      },
+      {
+        "label": "B",
+        "text": "To skip specific iterations based on a condition"
+      },
+      {
+        "label": "C",
+        "text": "To pause execution"
+      },
+      {
+        "label": "D",
+        "text": "To run the else block"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 132,
+    "type": "MCQ",
+    "question": "What will be the final value of the variable 'output' after the following Python code is executed? output = \"\" for x in range(5): if x == 2: continue output += str(x)",
+    "options": [
+      {
+        "label": "A",
+        "text": "34"
+      },
+      {
+        "label": "B",
+        "text": "01"
+      },
+      {
+        "label": "C",
+        "text": "01234"
+      },
+      {
+        "label": "D",
+        "text": "0134"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 133,
+    "type": "MCQ",
+    "question": "What is the expected output of the following Python code snippet? a = 10 b = 5 assert a > b print(\"Pass 1\") assert a < b, \"Pass 2 failed\" print(\"Pass 2\")",
+    "options": [
+      {
+        "label": "A",
+        "text": "AssertionError: Pass 2 failed"
+      },
+      {
+        "label": "B",
+        "text": "Pass 1 AssertionError: Pass 2 failed"
+      },
+      {
+        "label": "C",
+        "text": "Pass 1"
+      },
+      {
+        "label": "D",
+        "text": "Pass 1 Pass 2"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 134,
+    "type": "MCQ",
+    "question": "According to Python coding patterns, what is a primary advantage of using the 'else' clause with a 'while' loop when searching for an item?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It allows the loop to bypass the header test for faster execution."
+      },
+      {
+        "label": "B",
+        "text": "It eliminates the need to initialize and check a boolean flag to determine if the search failed."
+      },
+      {
+        "label": "C",
+        "text": "It ensures that the loop body executes at least once even if the condition is initially false."
+      },
+      {
+        "label": "D",
+        "text": "It automatically restarts the loop if the search criteria are not met."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 135,
+    "type": "MCQ",
+    "question": "In Python, what specific condition leads to the creation of an 'infinite loop' when using a while statement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "When a break statement is encountered within the first iteration of the loop."
+      },
+      {
+        "label": "B",
+        "text": "When the loop condition evaluates to True on the first check but False on the second."
+      },
+      {
+        "label": "C",
+        "text": "When the test expression at the top of the loop header always evaluates to a true value."
+      },
+      {
+        "label": "D",
+        "text": "When the loop body is empty and contains only a pass statement."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 136,
+    "type": "MCQ",
+    "question": "In Python, under which specific condition is the code block nested within a 'while...else' statement executed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It executes during every iteration of the loop regardless of the test condition."
+      },
+      {
+        "label": "B",
+        "text": "It executes only if the loop is infinite and is manually stopped by the user."
+      },
+      {
+        "label": "C",
+        "text": "It executes only if the loop body contains a 'break' statement that is triggered."
+      },
+      {
+        "label": "D",
+        "text": "It executes if the loop terminates normally because the test condition evaluates to false without hitting a 'break'."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 137,
+    "type": "MCQ",
+    "question": "What will be the output of the following Python code snippet? x = 1 while x < 3: if x == 10: break x += 1 else: print(\"Search Complete\")",
+    "options": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "Search Complete"
+      },
+      {
+        "label": "C",
+        "text": "The code will result in an infinite loop"
+      },
+      {
+        "label": "D",
+        "text": "No output is produced"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 138,
+    "type": "MCQ",
+    "question": "In a Python program containing a 'while' loop with an 'else' clause, what is the consequence if the loop's test condition is false upon its very first evaluation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The program raises a syntax error because the 'else' clause requires at least one loop iteration."
+      },
+      {
+        "label": "B",
+        "text": "The loop body is skipped, and the 'else' block is executed immediately."
+      },
+      {
+        "label": "C",
+        "text": "Both the loop body and the 'else' block are bypassed as the loop never entered."
+      },
+      {
+        "label": "D",
+        "text": "The loop body executes exactly once before the 'else' block is processed."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 141,
+    "type": "MCQ",
+    "question": "Write a Python program that reads two integers and finds their greatest common divisor (GCD) using the Euclidean algorithm implemented with a while loop. Input Format: A single line containing two integers separated by space. Output Format: A single integer representing the GCD of the two numbers.",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 142,
+    "type": "MCQ",
+    "question": "Which is true about while loops?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Condition is checked after execution"
+      },
+      {
+        "label": "B",
+        "text": "Runs at least once"
+      },
+      {
+        "label": "C",
+        "text": "Might not run at all"
+      },
+      {
+        "label": "D",
+        "text": "Executes a fixed number of times"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 143,
+    "type": "MCQ",
+    "question": "In Python, which of the following is utilized to read input into a program?",
+    "options": [
+      {
+        "label": "A",
+        "text": "STDOUT"
+      },
+      {
+        "label": "B",
+        "text": "OUTPUT"
+      },
+      {
+        "label": "C",
+        "text": "CODE"
+      },
+      {
+        "label": "D",
+        "text": "STDIN"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 144,
+    "type": "MCQ",
+    "question": "Which loop is best when number of iterations is unknown?",
+    "options": [
+      {
+        "label": "A",
+        "text": "for"
+      },
+      {
+        "label": "B",
+        "text": "while"
+      },
+      {
+        "label": "C",
+        "text": "do-while"
+      },
+      {
+        "label": "D",
+        "text": "None"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 145,
+    "type": "MCQ",
+    "question": "How do you access the value for key \"name\" in a dictionary d?",
+    "options": [
+      {
+        "label": "A",
+        "text": "d(\"name\")"
+      },
+      {
+        "label": "B",
+        "text": "d.name"
+      },
+      {
+        "label": "C",
+        "text": "d[\"name\"]"
+      },
+      {
+        "label": "D",
+        "text": "d->name"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 146,
+    "type": "MCQ",
+    "question": "Which of the following practices helps prevent infinite loops in a program?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Using a break statement"
+      },
+      {
+        "label": "B",
+        "text": "Using a continue statement appropriately"
+      },
+      {
+        "label": "C",
+        "text": "Ensuring proper update (increment/decrement) of loop control variables"
+      },
+      {
+        "label": "D",
+        "text": "All of the above"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 147,
+    "type": "MCQ",
+    "question": "What is the purpose of nesting if statements?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To make the program run faster"
+      },
+      {
+        "label": "B",
+        "text": "To check multiple conditions in a specific order"
+      },
+      {
+        "label": "C",
+        "text": "To avoid using loops"
+      },
+      {
+        "label": "D",
+        "text": "To skip conditions"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 148,
+    "type": "MCQ",
+    "question": "If a Python string contains both alphabetic characters and numeric characters, such as \"Pythonist 2\", what is the specific behavior of a case-swapping function like swap_case?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lowercase letters are capitalized, but uppercase letters and numbers are removed"
+      },
+      {
+        "label": "B",
+        "text": "Only the case of alphabetic letters is toggled, while numbers and spaces remain unchanged"
+      },
+      {
+        "label": "C",
+        "text": "All characters including numbers are converted to their uppercase equivalents"
+      },
+      {
+        "label": "D",
+        "text": "The function ignores the string and returns an error message if digits are detected"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 149,
+    "type": "MCQ",
+    "question": "What is the expected output when applying case-swapping logic to the Python string \"HackerRank.com\"?",
+    "options": [
+      {
+        "label": "A",
+        "text": "hackerrank.com"
+      },
+      {
+        "label": "B",
+        "text": "HACKERRANK.COM"
+      },
+      {
+        "label": "C",
+        "text": "HackerRank.COM"
+      },
+      {
+        "label": "D",
+        "text": "hACKERrANK.COM"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 150,
+    "type": "MCQ",
+    "question": "In Python, what is the resulting string when the case-swapping logic is applied to the following input: 'HackerRank.com presents \"Pythonist 2\".'?",
+    "options": [
+      {
+        "label": "A",
+        "text": "hackerrank.com presents \"pythonist 2\"."
+      },
+      {
+        "label": "B",
+        "text": "HACKERRANK.COM PRESENTS \"PYTHONIST 2\"."
+      },
+      {
+        "label": "C",
+        "text": "HackerRank.com Presents \"Pythonist 2\"."
+      },
+      {
+        "label": "D",
+        "text": "hACKERrANK.COM PRESENTS \"pYTHONIST 2\"."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 154,
+    "type": "MCQ",
+    "question": "Write a program that reads N key-value pairs (where both keys and values are integers), stores them in a dictionary, and returns the most frequent value. If multiple values have the same highest frequency, return the smallest such value. Input Format:The first line contains an integer N \u2014 the number of key-value pairs.The next N lines each contain two space-separated integers: key and value. Output Format:Print the most frequent value in the dictionary.",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 155,
+    "type": "MCQ",
+    "question": "How many loops are there in a nested for loop structure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "None"
+      },
+      {
+        "label": "C",
+        "text": "Only 3"
+      },
+      {
+        "label": "D",
+        "text": "2 or more"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 156,
+    "type": "MCQ",
+    "question": "What is a nested for loop?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A loop that runs only once"
+      },
+      {
+        "label": "B",
+        "text": "A loop inside another loop"
+      },
+      {
+        "label": "C",
+        "text": "A loop that stops immediately"
+      },
+      {
+        "label": "D",
+        "text": "A loop with no condition"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 157,
+    "type": "MCQ",
+    "question": "How many times will the inner loop run if the outer loop runs 3 times and the inner loop runs 2 times per outer iteration?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 158,
+    "type": "MCQ",
+    "question": "In a nested loop, what controls how many times the inner loop executes?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only the outer loop"
+      },
+      {
+        "label": "B",
+        "text": "Only the inner loop condition"
+      },
+      {
+        "label": "C",
+        "text": "Both the outer loop and the inner loop condition"
+      },
+      {
+        "label": "D",
+        "text": "The main function"
+      }
+    ],
+    "user_code": "",
+    "marks": "0/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 159,
+    "type": "MCQ",
+    "question": "What does elif stand for in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "End if"
+      },
+      {
+        "label": "B",
+        "text": "Extra if"
+      },
+      {
+        "label": "C",
+        "text": "Exit if"
+      },
+      {
+        "label": "D",
+        "text": "Else if"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 160,
+    "type": "MCQ",
+    "question": "What is a nested loop in python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A loop inside another loop"
+      },
+      {
+        "label": "B",
+        "text": "A loop that never ends"
+      },
+      {
+        "label": "C",
+        "text": "A loop without condition"
+      },
+      {
+        "label": "D",
+        "text": "A loop with break"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 161,
+    "type": "MCQ",
+    "question": "for i in range(3): for j in range(2): print(\"Hello\") How many times will \"Hello\" be printed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "3"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "5"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 162,
+    "type": "MCQ",
+    "question": "What will be the output of the following Python code snippet? for i in range(2, 4): for j in range(1, 11): if i == j: break print(i, \"*\", j, \"=\", i * j)",
+    "options": [
+      {
+        "label": "A",
+        "text": "2 * 1 = 2 3 * 1 = 3 3 * 2 = 6"
+      },
+      {
+        "label": "B",
+        "text": "2 * 1 = 2 2 * 2 = 4 3 * 1 = 3 3 * 2 = 6 3 * 3 = 9"
+      },
+      {
+        "label": "C",
+        "text": "2 * 1 = 2 3 * 1 = 3"
+      },
+      {
+        "label": "D",
+        "text": "2 * 1 = 2 2 * 2 = 4 3 * 1 = 3 3 * 2 = 6"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 163,
+    "type": "MCQ",
+    "question": "Which of the following is a valid rule for creating nested loops in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Any type of loop can be placed inside any other type of loop, such as a while loop inside a for loop."
+      },
+      {
+        "label": "B",
+        "text": "Nested loops can only have two levels of depth."
+      },
+      {
+        "label": "C",
+        "text": "A while loop cannot be placed inside a for loop."
+      },
+      {
+        "label": "D",
+        "text": "Only for loops can be used as inner loops."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 164,
+    "type": "MCQ",
+    "question": "In Python, if an outer loop executes 5 times and an inner loop executes 4 times for every single iteration of the outer loop, what is the total number of times the code inside the inner loop will be executed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "9"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "20"
+      },
+      {
+        "label": "D",
+        "text": "1"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 165,
+    "type": "MCQ",
+    "question": "In Python, which mathematical expression used within a nested loop print statement will produce a checkerboard pattern of 0s and 1s, such as: 0 1 0 1 0 1 0 1 0",
+    "options": [
+      {
+        "label": "A",
+        "text": "(i + j) // 2"
+      },
+      {
+        "label": "B",
+        "text": "(i ** j) % 2"
+      },
+      {
+        "label": "C",
+        "text": "(i * j) % 2"
+      },
+      {
+        "label": "D",
+        "text": "(i + j) % 2"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 166,
+    "type": "MCQ",
+    "question": "When constructing a 4x4 hollow square pattern in Python using nested loops with indices 'i' and 'j' (ranging from 0 to 3), which conditional statement ensures that only the boundary stars are printed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "if i == 0 or i == 3 or j == 0 or j == 3:"
+      },
+      {
+        "label": "B",
+        "text": "if i == 0 and i == 3 and j == 0 and j == 3:"
+      },
+      {
+        "label": "C",
+        "text": "if i + j == 3:"
+      },
+      {
+        "label": "D",
+        "text": "if i == 1 or i == 2 or j == 1 or j == 2:"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 167,
+    "type": "MCQ",
+    "question": "What will be the output of the following Python code snippet when generating a pattern? for i in range(3): for j in range(3): if (i + j) % 2 == 0: print(\"E\", end=\" \") else: print(\"O\", end=\" \") print()",
+    "options": [
+      {
+        "label": "A",
+        "text": "E O O O E O O O E"
+      },
+      {
+        "label": "B",
+        "text": "O E O E O E O E O"
+      },
+      {
+        "label": "C",
+        "text": "E E E O O O E E E"
+      },
+      {
+        "label": "D",
+        "text": "E O E O E O E O E"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 170,
+    "type": "MCQ",
+    "question": "ou are given an M x N binary matrix containing only 0s and 1s. Your task is to find the size (side length) of the largest square sub-matrix that contains only 1s. Input Format: First line contains two integers M and N, the dimensions of the matrix. Next M lines contain N space-separated binary digits (0 or 1), representing the matrix rows. Output Format: Print a single integer: the side length of the largest square of 1s.",
+    "options": [],
+    "user_code": "",
+    "marks": "0/10",
+    "difficulty": "hard"
+  },
+  {
+    "id": 171,
+    "type": "MCQ",
+    "question": "Analyze the following Python code snippet. What is the exact number of times the multiplication result will be printed to the console? for i in range(2, 4): for j in range(1, 11): if i == j: break print(i, \"*\", j, \"=\", i*j)",
+    "options": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "2"
+      }
+    ],
+    "user_code": "",
+    "marks": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": 172,
+    "type": "MCQ",
+    "question": "What two measurements are used to calculate BMI?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Weight and Height"
+      },
+      {
+        "label": "B",
+        "text": "Weight and Age"
+      },
+      {
+        "label": "C",
+        "text": "Height and Age"
+      },
+      {
+        "label": "D",
+        "text": "Weight and Blood Pressure"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 173,
+    "type": "MCQ",
+    "question": "Where is procedural programming commonly applied?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Complex GUI applications"
+      },
+      {
+        "label": "B",
+        "text": "Operating Systems and embedded systems"
+      },
+      {
+        "label": "C",
+        "text": "Large scale enterprise applications"
+      },
+      {
+        "label": "D",
+        "text": "Modern web frameworks"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 174,
+    "type": "MCQ",
+    "question": "According to the conditional logic in the Python BMI Calculator, which status will be displayed to a user if their calculated BMI is exactly 17.5?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Underweight"
+      },
+      {
+        "label": "B",
+        "text": "Healthy"
+      },
+      {
+        "label": "C",
+        "text": "Extremely Underweight"
+      },
+      {
+        "label": "D",
+        "text": "Overweight"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 175,
+    "type": "MCQ",
+    "question": "What is the visual result of the following Python code snippet? for i in range(4): for j in range(4): if i == j: print('*', end=' ') else: print(' ', end=' ') print()",
+    "options": [
+      {
+        "label": "A",
+        "text": "A vertical line of stars in the first column"
+      },
+      {
+        "label": "B",
+        "text": "A hollow square made of stars"
+      },
+      {
+        "label": "C",
+        "text": "A horizontal line of stars in the first row"
+      },
+      {
+        "label": "D",
+        "text": "A diagonal line of stars starting from the top-left corner"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 180,
+    "type": "MCQ",
+    "question": "You are given a name (a single string). Your task is to print the name in a left-aligned triangle pattern, such that: The first line contains the first letter, The second line contains the first two letters, And so on, until the full name is printed. Input Format: A single string name containing uppercase or lowercase letters only. Output Format: Print the name in a left-aligned triangle pattern.",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 181,
+    "type": "MCQ",
+    "question": "Which of these helps in dividing programs into smaller modules?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Functions"
+      },
+      {
+        "label": "B",
+        "text": "Loops"
+      },
+      {
+        "label": "C",
+        "text": "Classes"
+      },
+      {
+        "label": "D",
+        "text": "Errors"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 182,
+    "type": "MCQ",
+    "question": "When calling a Python function using keyword arguments, such as 'f(c=3, b=2, a=1)', which of the following statements is true regarding the matching process?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Keyword arguments are matched by position first and then by name."
+      },
+      {
+        "label": "B",
+        "text": "The arguments must be provided in the exact order they were defined in the function header."
+      },
+      {
+        "label": "C",
+        "text": "The left-to-right order of the arguments no longer matters because Python matches them by name."
+      },
+      {
+        "label": "D",
+        "text": "Keyword arguments require the function to have default values defined for all parameters."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 183,
+    "type": "MCQ",
+    "question": "What is the result of the following Python code execution? def greet(name, message=\"Welcome\"): print(message, name) greet(\"Saketh\")",
+    "options": [
+      {
+        "label": "A",
+        "text": "Saketh Welcome"
+      },
+      {
+        "label": "B",
+        "text": "Welcome None"
+      },
+      {
+        "label": "C",
+        "text": "TypeError: greet() missing 1 required positional argument"
+      },
+      {
+        "label": "D",
+        "text": "Welcome Saketh"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 184,
+    "type": "MCQ",
+    "question": "In Python, which of the following function calls will result in a syntax error when trying to combine positional and keyword arguments for the function 'def subtract(a, b):'?",
+    "options": [
+      {
+        "label": "A",
+        "text": "subtract(a=10, 5)"
+      },
+      {
+        "label": "B",
+        "text": "subtract(a=10, b=5)"
+      },
+      {
+        "label": "C",
+        "text": "subtract(10, b=5)"
+      },
+      {
+        "label": "D",
+        "text": "subtract(10, 5)"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 185,
+    "type": "MCQ",
+    "question": "What is the output of the following Python code snippet? def check_value(n): if n > 10: return \"High\" else: return \"Low\" print(check_value(5))",
+    "options": [
+      {
+        "label": "A",
+        "text": "Low"
+      },
+      {
+        "label": "B",
+        "text": "Error: return cannot be used inside an if-else block"
+      },
+      {
+        "label": "C",
+        "text": "None"
+      },
+      {
+        "label": "D",
+        "text": "High"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 186,
+    "type": "MCQ",
+    "question": "In Python, if a function is assigned to a variable and then used in a nested call, what will be the output of this code? def compute(n): return n + 5 calc = compute result = calc(calc(10)) print(result)",
+    "options": [
+      {
+        "label": "A",
+        "text": "10"
+      },
+      {
+        "label": "B",
+        "text": "20"
+      },
+      {
+        "label": "C",
+        "text": "25"
+      },
+      {
+        "label": "D",
+        "text": "15"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 187,
+    "type": "MCQ",
+    "question": "When invoking a Python function that utilizes a combination of positional and keyword arguments, which rule determines how the objects are matched to the local variable names in the function header?",
+    "options": [
+      {
+        "label": "A",
+        "text": "All positional arguments are matched first from left to right, followed by the matching of keyword arguments by name."
+      },
+      {
+        "label": "B",
+        "text": "Default values for parameters must be explicitly cleared by keyword arguments before positional arguments can be used."
+      },
+      {
+        "label": "C",
+        "text": "Keyword arguments are matched first to ensure all required names are filled, then remaining positionals are filled."
+      },
+      {
+        "label": "D",
+        "text": "Arguments are matched based on the length of the variable names in the function definition."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 188,
+    "type": "MCQ",
+    "question": "Consider the following Python function definition: def process_values(a, b, c=10): return (a - b) * c Which of the following function calls will result in a SyntaxError?",
+    "options": [
+      {
+        "label": "A",
+        "text": "process_values(20, 5, c=2)"
+      },
+      {
+        "label": "B",
+        "text": "process_values(a=20, 5, c=2)"
+      },
+      {
+        "label": "C",
+        "text": "process_values(b=5, a=20, c=2)"
+      },
+      {
+        "label": "D",
+        "text": "process_values(20, b=5)"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 189,
+    "type": "MCQ",
+    "question": "When analyzing the execution flow of a Python program, what characterizes the state of a function immediately after its definition has been processed but before it has been called?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The function body is executed once in a hidden background thread to initialize local variables."
+      },
+      {
+        "label": "B",
+        "text": "The function code is stored in memory as a named block of logic, but the statements inside its body have not been executed."
+      },
+      {
+        "label": "C",
+        "text": "The control flow jumps directly to the function's final statement to establish a default return value before resuming main execution."
+      },
+      {
+        "label": "D",
+        "text": "The interpreter skips the definition entirely and only reads the function logic once a call expression is detected."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 192,
+    "type": "MCQ",
+    "question": "Define a recursive function weird_sum(n) such that: If n < 10, return n Otherwise, return: n % 10 + weird_sum(weird_sum(n // 10)) You are to implement this function and print the result. Input Format : A single integer n Output Format :A single integer representing the result of weird_sum(n)",
+    "options": [],
+    "user_code": "",
+    "marks": "9/15",
+    "difficulty": "easy"
+  },
+  {
+    "id": 193,
+    "type": "MCQ",
+    "question": "In a while loop with else, what is the role of the else block?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To handle exceptions"
+      },
+      {
+        "label": "B",
+        "text": "To execute code after the loop ends without a break"
+      },
+      {
+        "label": "C",
+        "text": "To run if the condition is initially False"
+      },
+      {
+        "label": "D",
+        "text": "To repeat the loop"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 194,
+    "type": "MCQ",
+    "question": "What will f(1, b=2, c=3) do if function is def f(a, b=1, c=1):?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Error"
+      },
+      {
+        "label": "B",
+        "text": "Override defaults"
+      },
+      {
+        "label": "C",
+        "text": "Ignore c"
+      },
+      {
+        "label": "D",
+        "text": "Only take a and b"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 195,
+    "type": "MCQ",
+    "question": "What does the range() function do in a for loop?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Generates a random number"
+      },
+      {
+        "label": "B",
+        "text": "Creates a sequence of numbers"
+      },
+      {
+        "label": "C",
+        "text": "Stops the loop"
+      },
+      {
+        "label": "D",
+        "text": "Defines a condition"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 196,
+    "type": "MCQ",
+    "question": "x = 5 if x > 0: print(\"Positive\") else: print(\"Negative\") what is the output of the code",
+    "options": [
+      {
+        "label": "A",
+        "text": "Positive"
+      },
+      {
+        "label": "B",
+        "text": "Nothing"
+      },
+      {
+        "label": "C",
+        "text": "Error"
+      },
+      {
+        "label": "D",
+        "text": "Negative"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 197,
+    "type": "MCQ",
+    "question": "When using an optional else clause with a Python while loop, under which specific circumstance will the code inside the else block NOT be executed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "When the loop condition evaluates to False on the very first check."
+      },
+      {
+        "label": "B",
+        "text": "When the loop is exited prematurely using a break statement."
+      },
+      {
+        "label": "C",
+        "text": "When the loop body contains a pass statement."
+      },
+      {
+        "label": "D",
+        "text": "When the loop finishes all its iterations naturally because the condition became False."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 198,
+    "type": "MCQ",
+    "question": "In Python, how do set methods like union() differ from set expression operators like | when handling different data types?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Set methods require both operands to be of the set type, while expression operators accept lists and tuples."
+      },
+      {
+        "label": "B",
+        "text": "Set methods can accept any iterable type as an argument, while expression operators require both operands to be sets."
+      },
+      {
+        "label": "C",
+        "text": "There is no difference; both methods and operators strictly require all operands to be sets."
+      },
+      {
+        "label": "D",
+        "text": "Set expression operators automatically convert any iterable to a set, while methods do not."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 199,
+    "type": "MCQ",
+    "question": "In Python, which of the following logical expressions will evaluate to False given two sets X = {1, 2, 3} and Y = {3, 4, 5}?",
+    "options": [
+      {
+        "label": "A",
+        "text": "X | Y == Y | X"
+      },
+      {
+        "label": "B",
+        "text": "X - Y == Y - X"
+      },
+      {
+        "label": "C",
+        "text": "X & Y == Y & X"
+      },
+      {
+        "label": "D",
+        "text": "X ^ Y == Y ^ X"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 200,
+    "type": "MCQ",
+    "question": "What is the visual result of the following Python code snippet? for i in range(4): for j in range(4): if i == j: print('*', end=' ') else: print(' ', end=' ') print()",
+    "options": [
+      {
+        "label": "A",
+        "text": "A vertical line of stars in the first column"
+      },
+      {
+        "label": "B",
+        "text": "A hollow square made of stars"
+      },
+      {
+        "label": "C",
+        "text": "A horizontal line of stars in the first row"
+      },
+      {
+        "label": "D",
+        "text": "A diagonal line of stars starting from the top-left corner"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 201,
+    "type": "MCQ",
+    "question": "If a Python string contains both alphabetic characters and numeric characters, such as \"Pythonist 2\", what is the specific behavior of a case-swapping function like swap_case?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lowercase letters are capitalized, but uppercase letters and numbers are removed"
+      },
+      {
+        "label": "B",
+        "text": "Only the case of alphabetic letters is toggled, while numbers and spaces remain unchanged"
+      },
+      {
+        "label": "C",
+        "text": "All characters including numbers are converted to their uppercase equivalents"
+      },
+      {
+        "label": "D",
+        "text": "The function ignores the string and returns an error message if digits are detected"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 202,
+    "type": "MCQ",
+    "question": "What are the return values of the following Python function calls? all([True, False, True]) any([True, False, True])",
+    "options": [
+      {
+        "label": "A",
+        "text": "False and False"
+      },
+      {
+        "label": "B",
+        "text": "True and True"
+      },
+      {
+        "label": "C",
+        "text": "False and True"
+      },
+      {
+        "label": "D",
+        "text": "True and False"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 203,
+    "type": "MCQ",
+    "question": "In Python, given two sets X = {10, 20, 30} and Y = {30, 40, 50}, which of the following logical comparisons will evaluate to False?",
+    "options": [
+      {
+        "label": "A",
+        "text": "(X ^ Y) == (Y ^ X)"
+      },
+      {
+        "label": "B",
+        "text": "(X | Y) == (Y | X)"
+      },
+      {
+        "label": "C",
+        "text": "(X & Y) == (Y & X)"
+      },
+      {
+        "label": "D",
+        "text": "(X - Y) == (Y - X)"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 204,
+    "type": "MCQ",
+    "question": "What does the Python built-in map() function return when it is executed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A dictionary mapping inputs to outputs."
+      },
+      {
+        "label": "B",
+        "text": "A map object that functions as an iterator."
+      },
+      {
+        "label": "C",
+        "text": "A list containing the modified elements."
+      },
+      {
+        "label": "D",
+        "text": "A boolean indicating if the mapping was successful."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 205,
+    "type": "MCQ",
+    "question": "Consider the following Python conditional logic used to categorize health status. Which message will be displayed if the variable `bmi` is calculated to be exactly 25.0? if bmi < 16: st.error('Extremely Underweight') elif 16 <= bmi < 18.5: st.warning('Underweight') elif 18.5 <= bmi < 25: st.success('Healthy') elif 25 <= bmi < 30: st.warning('Overweight') else: st.error('Extremely Overweight')",
+    "options": [
+      {
+        "label": "A",
+        "text": "Extremely Overweight"
+      },
+      {
+        "label": "B",
+        "text": "Overweight"
+      },
+      {
+        "label": "C",
+        "text": "Underweight"
+      },
+      {
+        "label": "D",
+        "text": "Healthy"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 206,
+    "type": "MCQ",
+    "question": "When invoking a Python function that utilizes a combination of positional and keyword arguments, which rule determines how the objects are matched to the local variable names in the function header?",
+    "options": [
+      {
+        "label": "A",
+        "text": "All positional arguments are matched first from left to right, followed by the matching of keyword arguments by name."
+      },
+      {
+        "label": "B",
+        "text": "Default values for parameters must be explicitly cleared by keyword arguments before positional arguments can be used."
+      },
+      {
+        "label": "C",
+        "text": "Keyword arguments are matched first to ensure all required names are filled, then remaining positionals are filled."
+      },
+      {
+        "label": "D",
+        "text": "Arguments are matched based on the length of the variable names in the function definition."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 209,
+    "type": "MCQ",
+    "question": "You are given a 2D grid of characters with R rows and C columns. Your task is to find the first occurrence of the character 'X' in row-major order (top to bottom, left to right). Once found, print the row index and column index (0-based) and break the loop. If 'X' is not found in the grid, print Not Found. Input Format : First line contains two space-separated integers: R and C \u2013 the number of rows and columns. Next R lines contain C space-separated uppercase characters. Output Format : Print two integers: the row index and column index of the first 'X'. If not found, print Not Found.",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 210,
+    "type": "MCQ",
+    "question": "What is the full form of 'os' in the os module?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Operating System"
+      },
+      {
+        "label": "B",
+        "text": "Open Source"
+      },
+      {
+        "label": "C",
+        "text": "Ordered Set"
+      },
+      {
+        "label": "D",
+        "text": "Old Script"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 211,
+    "type": "MCQ",
+    "question": "Which module would you use to generate a random integer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "random"
+      },
+      {
+        "label": "B",
+        "text": "math"
+      },
+      {
+        "label": "C",
+        "text": "os"
+      },
+      {
+        "label": "D",
+        "text": "system"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 212,
+    "type": "MCQ",
+    "question": "Which function adds days to a date?",
+    "options": [
+      {
+        "label": "A",
+        "text": "datetime.add()"
+      },
+      {
+        "label": "B",
+        "text": "datetime.timedelta()"
+      },
+      {
+        "label": "C",
+        "text": "datetime.now()"
+      },
+      {
+        "label": "D",
+        "text": "datetime.time"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 213,
+    "type": "MCQ",
+    "question": "Does the math module handle random numbers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes"
+      },
+      {
+        "label": "B",
+        "text": "No"
+      },
+      {
+        "label": "C",
+        "text": "Only integers"
+      },
+      {
+        "label": "D",
+        "text": "Only decimals"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 214,
+    "type": "MCQ",
+    "question": "Which module is used for mathematical operations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "os"
+      },
+      {
+        "label": "B",
+        "text": "rand"
+      },
+      {
+        "label": "C",
+        "text": "math"
+      },
+      {
+        "label": "D",
+        "text": "system"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 215,
+    "type": "MCQ",
+    "question": "When a variable is assigned a value at the top level of a Python module file, rather than inside a function, what does it specifically become?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A local variable"
+      },
+      {
+        "label": "B",
+        "text": "A system-level constant"
+      },
+      {
+        "label": "C",
+        "text": "A module attribute"
+      },
+      {
+        "label": "D",
+        "text": "A private comment"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 216,
+    "type": "MCQ",
+    "question": "Which function gets the name of the month from a number?",
+    "options": [
+      {
+        "label": "A",
+        "text": "calendar.month_name"
+      },
+      {
+        "label": "B",
+        "text": "calendar.month_number"
+      },
+      {
+        "label": "C",
+        "text": "calendar.month_title"
+      },
+      {
+        "label": "D",
+        "text": "calendar.month_count"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 217,
+    "type": "MCQ",
+    "question": "Which module helps with date manipulations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "time"
+      },
+      {
+        "label": "B",
+        "text": "datetime"
+      },
+      {
+        "label": "C",
+        "text": "random"
+      },
+      {
+        "label": "D",
+        "text": "sys"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 218,
+    "type": "MCQ",
+    "question": "Which Python module is used to access operating system\u2013related functionalities (such as file paths, environment variables, and process handling)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "os"
+      },
+      {
+        "label": "B",
+        "text": "math"
+      },
+      {
+        "label": "C",
+        "text": "random"
+      },
+      {
+        "label": "D",
+        "text": "system"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 219,
+    "type": "MCQ",
+    "question": "What does `from math import sqrt` mean?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Imports math module"
+      },
+      {
+        "label": "B",
+        "text": "Imports all math functions"
+      },
+      {
+        "label": "C",
+        "text": "Imports only sqrt function"
+      },
+      {
+        "label": "D",
+        "text": "Imports sqrt as module"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 220,
+    "type": "MCQ",
+    "question": "In Python, if a file named math_tools.py contains the following code: factor = 2 Which line correctly calculates the product of 10 and the 'factor' variable in a separate script after running 'import math_tools'?",
+    "options": [
+      {
+        "label": "A",
+        "text": "result = 10 * factor"
+      },
+      {
+        "label": "B",
+        "text": "result = 10 * math_tools.factor"
+      },
+      {
+        "label": "C",
+        "text": "result = 10 * math_tools->factor"
+      },
+      {
+        "label": "D",
+        "text": "result = 10 * math_tools(factor)"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 221,
+    "type": "MCQ",
+    "question": "What does random.choice() do?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Selects a random element from a list"
+      },
+      {
+        "label": "B",
+        "text": "Sorts a list randomly"
+      },
+      {
+        "label": "C",
+        "text": "Removes a random element from a list"
+      },
+      {
+        "label": "D",
+        "text": "Returns the index of a random element"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 222,
+    "type": "MCQ",
+    "question": "Which function is used to shuffle a list randomly?",
+    "options": [
+      {
+        "label": "A",
+        "text": "random.choice"
+      },
+      {
+        "label": "B",
+        "text": "random.shuffle"
+      },
+      {
+        "label": "C",
+        "text": "random.randint"
+      },
+      {
+        "label": "D",
+        "text": "random.uniform"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 223,
+    "type": "MCQ",
+    "question": "What does importing a module do?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Deletes it"
+      },
+      {
+        "label": "B",
+        "text": "Loads it into memory"
+      },
+      {
+        "label": "C",
+        "text": "Ignores it"
+      },
+      {
+        "label": "D",
+        "text": "Compiles it"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 224,
+    "type": "MCQ",
+    "question": "What does calendar.month(2024, 4) return?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Calendar for April 2024"
+      },
+      {
+        "label": "B",
+        "text": "Year 2024 in calendar format"
+      },
+      {
+        "label": "C",
+        "text": "Number of days in April 2024"
+      },
+      {
+        "label": "D",
+        "text": "First day of April 2024"
+      }
+    ],
+    "user_code": "",
+    "marks": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": 225,
+    "type": "MCQ",
+    "question": "Which function is used to list all files and directories inside a folder in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "os.listdir()"
+      },
+      {
+        "label": "B",
+        "text": "sys.list()"
+      },
+      {
+        "label": "C",
+        "text": "math.listdir()"
+      },
+      {
+        "label": "D",
+        "text": "random.list()"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 226,
+    "type": "MCQ",
+    "question": "What does the function call random.choice(['a', 'b', 'c']) return?",
+    "options": [
+      {
+        "label": "A",
+        "text": "One randomly selected element from the list"
+      },
+      {
+        "label": "B",
+        "text": "All elements of the list"
+      },
+      {
+        "label": "C",
+        "text": "A sorted version of the list"
+      },
+      {
+        "label": "D",
+        "text": "An integer"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 227,
+    "type": "MCQ",
+    "question": "Which function is used to randomly shuffle the elements of a list in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "random.shuffle()"
+      },
+      {
+        "label": "B",
+        "text": "random.mix()"
+      },
+      {
+        "label": "C",
+        "text": "random.reorder()"
+      },
+      {
+        "label": "D",
+        "text": "random.arrange()"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 228,
+    "type": "MCQ",
+    "question": "Which command can be used to clear the terminal screen using Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "os.system(\"cls\") or os.system(\"clear\")"
+      },
+      {
+        "label": "B",
+        "text": "sys.cls()"
+      },
+      {
+        "label": "C",
+        "text": "random.clear()"
+      },
+      {
+        "label": "D",
+        "text": "os.clear()"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 229,
+    "type": "MCQ",
+    "question": "Which function returns the largest integer less than or equal to a number",
+    "options": [
+      {
+        "label": "A",
+        "text": "math.floor"
+      },
+      {
+        "label": "B",
+        "text": "math.ceil"
+      },
+      {
+        "label": "C",
+        "text": "math.trunc"
+      },
+      {
+        "label": "D",
+        "text": "math.round"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 230,
+    "type": "MCQ",
+    "question": "Which attribute is used to get the Python system version information?",
+    "options": [
+      {
+        "label": "A",
+        "text": "sys.version"
+      },
+      {
+        "label": "B",
+        "text": "sys.info()"
+      },
+      {
+        "label": "C",
+        "text": "random.version()"
+      },
+      {
+        "label": "D",
+        "text": "math.version()"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 231,
+    "type": "MCQ",
+    "question": "Which module gives access to system-specific functions",
+    "options": [
+      {
+        "label": "A",
+        "text": "sys"
+      },
+      {
+        "label": "B",
+        "text": "os"
+      },
+      {
+        "label": "C",
+        "text": "math"
+      },
+      {
+        "label": "D",
+        "text": "random"
+      }
+    ],
+    "user_code": "",
+    "marks": "0/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 232,
+    "type": "MCQ",
+    "question": "Which module is used to generate random numbers",
+    "options": [
+      {
+        "label": "A",
+        "text": "random"
+      },
+      {
+        "label": "B",
+        "text": "sys"
+      },
+      {
+        "label": "C",
+        "text": "math"
+      },
+      {
+        "label": "D",
+        "text": "os"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 233,
+    "type": "MCQ",
+    "question": "Which function is used to generate a random integer within a specified range in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "random.randint()"
+      },
+      {
+        "label": "B",
+        "text": "math.randint()"
+      },
+      {
+        "label": "C",
+        "text": "os.randint()"
+      },
+      {
+        "label": "D",
+        "text": "sys.randint()"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 234,
+    "type": "MCQ",
+    "question": "Which attribute is used to access all environment variables in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "os.environ()"
+      },
+      {
+        "label": "B",
+        "text": "os.getenvs()"
+      },
+      {
+        "label": "C",
+        "text": "sys.environ()"
+      },
+      {
+        "label": "D",
+        "text": "random.environ()"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 235,
+    "type": "MCQ",
+    "question": "Which function is used to calculate the power of a number in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "math.pow(x,y)"
+      },
+      {
+        "label": "B",
+        "text": "os.pow(x,y)"
+      },
+      {
+        "label": "C",
+        "text": "sys.pow(x,y)"
+      },
+      {
+        "label": "D",
+        "text": "random.pow(x,y)"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 236,
+    "type": "MCQ",
+    "question": "Which function gives absolute value in math module",
+    "options": [
+      {
+        "label": "A",
+        "text": "math.fabs"
+      },
+      {
+        "label": "B",
+        "text": "math.abs"
+      },
+      {
+        "label": "C",
+        "text": "math.absolute"
+      },
+      {
+        "label": "D",
+        "text": "math.valabs"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 237,
+    "type": "MCQ",
+    "question": "Which function returns a random floating-point number between 0 and 1 in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "random.random()"
+      },
+      {
+        "label": "B",
+        "text": "random.float()"
+      },
+      {
+        "label": "C",
+        "text": "math.random()"
+      },
+      {
+        "label": "D",
+        "text": "os.random()"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 238,
+    "type": "MCQ",
+    "question": "What does sys.path return",
+    "options": [
+      {
+        "label": "A",
+        "text": "A list of module search paths"
+      },
+      {
+        "label": "B",
+        "text": "A list of arguments"
+      },
+      {
+        "label": "C",
+        "text": "A directory name"
+      },
+      {
+        "label": "D",
+        "text": "A list of files"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 241,
+    "type": "MCQ",
+    "question": "You are given a positive integer n. Write a program to check whether the number is prime or not using the math.sqrt() function for optimization.A prime number is a number greater than 1 that has no positive divisors other than 1 and itself.Input Format:A single integer n.Output Format:Print \"Prime\" if the number is prime. and Print \"Not Prime\" otherwise.",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 242,
+    "type": "MCQ",
+    "question": "When manually iterating through a Python generator object using the next() function, what specific mechanism is used to signal that the generator has no more values to yield?",
+    "options": [
+      {
+        "label": "A",
+        "text": "A StopIteration exception is raised by the generator."
+      },
+      {
+        "label": "B",
+        "text": "The function returns a None value to indicate it is finished."
+      },
+      {
+        "label": "C",
+        "text": "The next() function returns a Boolean False value."
+      },
+      {
+        "label": "D",
+        "text": "The generator object is automatically re-initialized to the beginning."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 243,
+    "type": "MCQ",
+    "question": "Which component of a Python object is specifically represented by its attributes and reflects the properties or data held by that instance?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Behavior"
+      },
+      {
+        "label": "B",
+        "text": "Identity"
+      },
+      {
+        "label": "C",
+        "text": "State"
+      },
+      {
+        "label": "D",
+        "text": "Inheritance"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 244,
+    "type": "MCQ",
+    "question": "Which decorator in Python is used to define a method that receives the class itself as its first argument, enabling it to access or update variables shared by all instances of that class?",
+    "options": [
+      {
+        "label": "A",
+        "text": "@classmethod"
+      },
+      {
+        "label": "B",
+        "text": "@property"
+      },
+      {
+        "label": "C",
+        "text": "@staticmethod"
+      },
+      {
+        "label": "D",
+        "text": "@instancemethod"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 245,
+    "type": "MCQ",
+    "question": "When a Python module is imported multiple times within the same system, what is the standard behavior for executing the code inside that module?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The module code is only executed when the 'imp.reload' function is called manually."
+      },
+      {
+        "label": "B",
+        "text": "The module code is re-executed every time a new 'import' statement is encountered."
+      },
+      {
+        "label": "C",
+        "text": "The module statements are executed only during the very first import."
+      },
+      {
+        "label": "D",
+        "text": "The module code is executed only if it contains a class definition."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 246,
+    "type": "MCQ",
+    "question": "Which of the following describes a key syntactic constraint of Python's lambda functions compared to functions defined with the def keyword?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lambdas are restricted to a single expression and cannot contain multiple statements."
+      },
+      {
+        "label": "B",
+        "text": "Lambdas cannot accept more than one input argument."
+      },
+      {
+        "label": "C",
+        "text": "Lambdas must always be assigned to a variable name before they can be used."
+      },
+      {
+        "label": "D",
+        "text": "Lambdas cannot return values like integers or strings."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 247,
+    "type": "MCQ",
+    "question": "If a Python developer wants to pass a list to a function and perform in-place operations on it without altering the original list held by the caller, which technique is explicitly supported for creating a copy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Passing a slice of the object, such as `func(my_list[:])`, to provide an explicit copy to the function."
+      },
+      {
+        "label": "B",
+        "text": "Relying on Python's automatic copying mechanism for all mutable shared references."
+      },
+      {
+        "label": "C",
+        "text": "Declaring the parameter as a constant in the function header."
+      },
+      {
+        "label": "D",
+        "text": "Using the 'ref' keyword at the point of the function call."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 248,
+    "type": "MCQ",
+    "question": "How does scope lookup work for a Python lambda expression defined inside another function, as shown in the code below? def knights(): title = 'Sir' action = (lambda x: title + ' ' + x) return action act = knights() print(act('Robin'))",
+    "options": [
+      {
+        "label": "A",
+        "text": "It prints 'Sir Robin' because the lambda follows LEGB scope rules and sees the enclosing name."
+      },
+      {
+        "label": "B",
+        "text": "It prints ' Robin' because the lambda cannot access variables in the enclosing function scope."
+      },
+      {
+        "label": "C",
+        "text": "It results in a NameError because 'title' is local to knights()."
+      },
+      {
+        "label": "D",
+        "text": "It requires 'title' to be passed as a global variable to function correctly."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 249,
+    "type": "MCQ",
+    "question": "In Python, which of the following best describes the 'pass-by-assignment' model for immutable objects, such as integers, when compared to the C programming language?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They are passed by object reference, but since the objects cannot be modified in-place, the effect is equivalent to C's pass-by-value."
+      },
+      {
+        "label": "B",
+        "text": "They are passed by automatic duplication to ensure that the function has a unique memory identifier for the value."
+      },
+      {
+        "label": "C",
+        "text": "They are passed as pointers that allow the function to change the original object's value in the caller's scope."
+      },
+      {
+        "label": "D",
+        "text": "They are passed by copying the entire object into the function's local scope, matching C's pass-by-value."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 250,
+    "type": "MCQ",
+    "question": "What is the output of the following Python code snippet? li = [lambda arg=x: arg * 5 for x in range(1, 3)] for i in li: print(i(), end=\" \")",
+    "options": [
+      {
+        "label": "A",
+        "text": "5 5"
+      },
+      {
+        "label": "B",
+        "text": "10 10"
+      },
+      {
+        "label": "C",
+        "text": "1 2"
+      },
+      {
+        "label": "D",
+        "text": "5 10"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 253,
+    "type": "MCQ",
+    "question": "Create two unrelated classes Bird and Airplane, both having a fly() method. Write a function make_it_fly(obj) that accepts any object and calls its fly() method. This must be implemented using duck typing (no inheritance). Input Format : First line: The type of object - either Bird or Airplane Second line: A parameter (e.g., name for Bird or model for Airplane) Output Format : Print the result of the fly() method",
+    "options": [],
+    "user_code": "",
+    "marks": "15/15",
+    "difficulty": "easy"
+  },
+  {
+    "id": 254,
+    "type": "MCQ",
+    "question": "What happens if no access specifier is used in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Attribute is private"
+      },
+      {
+        "label": "B",
+        "text": "Attribute is public"
+      },
+      {
+        "label": "C",
+        "text": "Attribute is protected"
+      },
+      {
+        "label": "D",
+        "text": "Attribute is hidden"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 255,
+    "type": "MCQ",
+    "question": "Can you access a private attribute with name mangling?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Yes"
+      },
+      {
+        "label": "B",
+        "text": "No"
+      },
+      {
+        "label": "C",
+        "text": "Only in subclasses"
+      },
+      {
+        "label": "D",
+        "text": "Only in methods"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 256,
+    "type": "MCQ",
+    "question": "According to Python OOP principles, which of the following is a primary reason to use a class variable rather than an instance variable?",
+    "options": [
+      {
+        "label": "A",
+        "text": "To ensure that every object has its own independent copy of a specific value."
+      },
+      {
+        "label": "B",
+        "text": "To store data that must be unique to every individual object created from the class."
+      },
+      {
+        "label": "C",
+        "text": "To define variables inside the __init__ method for better memory management."
+      },
+      {
+        "label": "D",
+        "text": "To store constants or configuration values that are shared across all instances of the class."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 257,
+    "type": "MCQ",
+    "question": "In Python, how does the interpreter handle an attribute defined with a double underscore prefix, such as `self.__salary`, when an attempt is made to access it directly from outside the class instance?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It returns a null value instead of the actual data to protect the internal state."
+      },
+      {
+        "label": "B",
+        "text": "It raises an AttributeError because the attribute is considered private due to name mangling."
+      },
+      {
+        "label": "C",
+        "text": "It allows access normally but prints a warning message to the console."
+      },
+      {
+        "label": "D",
+        "text": "It automatically converts the private attribute into a public one upon the first external call."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 260,
+    "type": "MCQ",
+    "question": "Create a class Student that stores each student\u2019s name and grade using instance variables. The class should maintain the total number of students and the average grade using class variables. Input Format : First line: An integer N, the number of students. Next N lines: Each line contains a string name and an integer grade. Output Format : First, print the total number of students. Then, print the average grade (rounded to 2 decimal places).",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 261,
+    "type": "MCQ",
+    "question": "In a Python class that uses single inheritance, which function is used to call the constructor (__init__) of the parent class?",
+    "options": [
+      {
+        "label": "A",
+        "text": "super()"
+      },
+      {
+        "label": "B",
+        "text": "base()"
+      },
+      {
+        "label": "C",
+        "text": "parent()"
+      },
+      {
+        "label": "D",
+        "text": "this()"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 262,
+    "type": "MCQ",
+    "question": "In Python OOPS, what is the standard naming convention used to indicate that a method is protected and intended for use only within the class or its subclasses?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Starting the method name with a double underscore, such as __display_info."
+      },
+      {
+        "label": "B",
+        "text": "Using all capital letters for the method name, such as DISPLAY_INFO."
+      },
+      {
+        "label": "C",
+        "text": "Starting the method name with a single underscore, such as _display_info."
+      },
+      {
+        "label": "D",
+        "text": "Ending the method name with a single underscore, such as display_info_."
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "medium"
+  },
+  {
+    "id": 263,
+    "type": "MCQ",
+    "question": "Consider a Python program where class 'TeamLead' inherits from class 'Employee' and class 'Project'. If 'Employee' itself inherits from class 'Person', what specific inheritance model does the 'TeamLead' class represent?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Basic Multilevel Inheritance"
+      },
+      {
+        "label": "B",
+        "text": "Hybrid Inheritance"
+      },
+      {
+        "label": "C",
+        "text": "Only Multiple Inheritance"
+      },
+      {
+        "label": "D",
+        "text": "Simple Hierarchical Inheritance"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 264,
+    "type": "MCQ",
+    "question": "What is the result of the following Python code execution? class Student: pass s1 = Student() s2 = Student() s1.name = \"Arjun\" s2.name = \"Arjun\" print(s1 == s2, s1.name == s2.name)",
+    "options": [
+      {
+        "label": "A",
+        "text": "False False"
+      },
+      {
+        "label": "B",
+        "text": "False True"
+      },
+      {
+        "label": "C",
+        "text": "True False"
+      },
+      {
+        "label": "D",
+        "text": "True True"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "hard"
+  },
+  {
+    "id": 267,
+    "type": "MCQ",
+    "question": "Design a farm produce management system using hierarchical inheritance. Create a base class Produce with a class variable total_quantity. Create three derived classes: Fruit, Vegetable, and Grain. Each derived class should override the method harvest(quantity: int) which: Adds the harvested quantity to both its own category total and the global total_quantity. Implement a get_quantity() method in each class that returns the harvested quantity for that category. Produce.get_total_quantity() should return the total of all harvested produce. Input Format : The first line contains an integer N, number of operations. The next N lines contain one of the following commands: \"harvest <type> <quantity>\" where <type> is Fruit, Vegetable, or Grain. \"get <type>\" to get total for that category. \"get total\" to get total harvested produce. Output Format : Print the result for each get command on a new line.",
+    "options": [],
+    "user_code": "",
+    "marks": "0/15",
+    "difficulty": "easy"
+  },
+  {
+    "id": 268,
+    "type": "MCQ",
+    "question": "In python, method overloading is part of",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inheritance"
+      },
+      {
+        "label": "B",
+        "text": "Static classes"
+      },
+      {
+        "label": "C",
+        "text": "Compile-time polymorphism"
+      },
+      {
+        "label": "D",
+        "text": "Dynamic linking"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 269,
+    "type": "MCQ",
+    "question": "Which methods can be overridden in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only static"
+      },
+      {
+        "label": "B",
+        "text": "Only constructors"
+      },
+      {
+        "label": "C",
+        "text": "Any public or protected method"
+      },
+      {
+        "label": "D",
+        "text": "Only private"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 270,
+    "type": "MCQ",
+    "question": "Can static methods be overridden?",
+    "options": [
+      {
+        "label": "A",
+        "text": "No"
+      },
+      {
+        "label": "B",
+        "text": "Yes, but behaves like hiding"
+      },
+      {
+        "label": "C",
+        "text": "Yes, but it is method hiding, not true overriding"
+      },
+      {
+        "label": "D",
+        "text": "Only using decorators"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 271,
+    "type": "MCQ",
+    "question": "Abstract classes can contain",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only abstract methods"
+      },
+      {
+        "label": "B",
+        "text": "Only static methods"
+      },
+      {
+        "label": "C",
+        "text": "Both concrete and abstract methods"
+      },
+      {
+        "label": "D",
+        "text": "No variables"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 274,
+    "type": "MCQ",
+    "question": "Implement an abstract base class Shape with an abstract method area(). Then implement the following subclasses: Rectangle: initialized with width and height Triangle: initialized with base and height Circle: initialized with radius Each subclass should override the area() method to return the correct area as a float rounded to 2 decimal places. You must follow the rules of abstraction using Python's abc module. Input Format: First line: an integer N, number of shapes Next N lines: each line contains shape type followed by parameters: rectangle width height triangle base height circle radius Output Format : Print N lines, each containing the area of the shape (rounded to 2 decimal places)",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 275,
+    "type": "MCQ",
+    "question": "Which Python feature best supports the \"real-world modeling\" in a project like this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lambda functions"
+      },
+      {
+        "label": "B",
+        "text": "Object-oriented programming (OOP)"
+      },
+      {
+        "label": "C",
+        "text": "Loops"
+      },
+      {
+        "label": "D",
+        "text": "Exception handling"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 276,
+    "type": "MCQ",
+    "question": "What would be the most appropriate parent class for Student, Professor, and Staff?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Coures"
+      },
+      {
+        "label": "B",
+        "text": "University"
+      },
+      {
+        "label": "C",
+        "text": "person"
+      },
+      {
+        "label": "D",
+        "text": "admin"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 279,
+    "type": "MCQ",
+    "question": "Design a Student and Course class for a university system where each student can enroll in multiple courses. Each course has a grade (on a 10-point scale) and credit hours. You need to:Store the enrolled courses for each student Input Format : First line: Student name Second line: Number of courses (n) Next n lines: Each line contains course_name (string), credits (int), grade (float) separated by space Output Format : Print Student: <name> Print GPA: <gpa rounded to 2 decimal places>",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 280,
+    "type": "MCQ",
+    "question": "Which of these is a valid mode combination",
+    "options": [
+      {
+        "label": "A",
+        "text": "r+"
+      },
+      {
+        "label": "B",
+        "text": "r/w"
+      },
+      {
+        "label": "C",
+        "text": "r*w"
+      },
+      {
+        "label": "D",
+        "text": "r:a"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 281,
+    "type": "MCQ",
+    "question": "What is the proper order for file handling in Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "open ? write ? close"
+      },
+      {
+        "label": "B",
+        "text": "open ? close ? write"
+      },
+      {
+        "label": "C",
+        "text": "close ? open ? write"
+      },
+      {
+        "label": "D",
+        "text": "write ? close ? open"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 282,
+    "type": "MCQ",
+    "question": "Which function is used to open a file",
+    "options": [
+      {
+        "label": "A",
+        "text": "open()"
+      },
+      {
+        "label": "B",
+        "text": "openfile()"
+      },
+      {
+        "label": "C",
+        "text": "fileopen()"
+      },
+      {
+        "label": "D",
+        "text": "opening()"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 283,
+    "type": "MCQ",
+    "question": "To write a line with newline, include",
+    "options": [
+      {
+        "label": "A",
+        "text": "\\n in string"
+      },
+      {
+        "label": "B",
+        "text": "Nothing"
+      },
+      {
+        "label": "C",
+        "text": "\\t"
+      },
+      {
+        "label": "D",
+        "text": ","
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 285,
+    "type": "MCQ",
+    "question": "Given a number N, generate numbers from 1 to N (inclusive) and return the first number whose binary representation is a palindrome. Use while loop with else clause to detect if no such binary palindrome exists. Input Format: A single integer N Output Format: Print the first number in range [1, N] whose binary representation is a palindrome. If none found, print \"No binary palindrome found\".",
+    "options": [],
+    "user_code": "",
+    "marks": "15/15",
+    "difficulty": "easy"
+  },
+  {
+    "id": 286,
+    "type": "MCQ",
+    "question": "The shutil module is used for which type of file operations?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only low-level operations"
+      },
+      {
+        "label": "B",
+        "text": "Only file creation"
+      },
+      {
+        "label": "C",
+        "text": "High-level file operations"
+      },
+      {
+        "label": "D",
+        "text": "Error handling"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 287,
+    "type": "MCQ",
+    "question": "What does the ^ inside [ ] mean?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Negates the set"
+      },
+      {
+        "label": "B",
+        "text": "Starts the string"
+      },
+      {
+        "label": "C",
+        "text": "Ends the string"
+      },
+      {
+        "label": "D",
+        "text": "Repeats the set"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 288,
+    "type": "MCQ",
+    "question": "To avoid an error when deleting a file or folder, what should you do?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Check if exists"
+      },
+      {
+        "label": "B",
+        "text": "Use print"
+      },
+      {
+        "label": "C",
+        "text": "Use write"
+      },
+      {
+        "label": "D",
+        "text": "Use file open"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 289,
+    "type": "MCQ",
+    "question": "Which statement correctly creates a folder named myfolder in the current directory using Python?",
+    "options": [
+      {
+        "label": "A",
+        "text": "os.mkdir('myfolder')"
+      },
+      {
+        "label": "B",
+        "text": "open('myfolder')"
+      },
+      {
+        "label": "C",
+        "text": "os.make('myfolder')"
+      },
+      {
+        "label": "D",
+        "text": "create('myfolder')"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 292,
+    "type": "MCQ",
+    "question": "You and Fredrick are good friends. Yesterday Fredrick received N credit cards from ABCD Bank. He wants to verify whether his credit card numbers are valid or not. A valid credit card from ABCD Bank has the following characteristics: It must start with a 4, 5 or 6. It must contain exactly 16 digits. It must consist of digits only (0-9), except that it may have digits in groups of 4 separated by a single hyphen -. That means two allowed formats only: dddddddddddddddd (16 digits) or dddd-dddd-dddd-dddd (four groups of 4 digits separated by hyphens). Mixed or other placements of separators are not allowed. It must NOT use any other separator like spaces, underscores, etc. It must NOT have 4 or more consecutive repeated digits when hyphens are removed (e.g. 4444 anywhere is invalid; 4-4-4-4 is also invalid because that becomes 4444 when hyphens are removed). Input Format : The first line contains an integer N, the number of credit card numbers to validate. Each of the next N lines contains a credit card number (string). Output Format : For each credit card number, print Valid if it is valid. Otherwise print Invalid. (One result per line, case-sensitive.)",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  },
+  {
+    "id": 293,
+    "type": "MCQ",
+    "question": "What will re.search(\"\\d+\", \"Age: 25\") return?",
+    "options": [
+      {
+        "label": "A",
+        "text": "None"
+      },
+      {
+        "label": "B",
+        "text": "25"
+      },
+      {
+        "label": "C",
+        "text": "Age"
+      },
+      {
+        "label": "D",
+        "text": "Error"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 294,
+    "type": "MCQ",
+    "question": "In form validation, why is ^ used in regular expressions?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Match special characters"
+      },
+      {
+        "label": "B",
+        "text": "Escape numbers"
+      },
+      {
+        "label": "C",
+        "text": "Indicates the start of the string"
+      },
+      {
+        "label": "D",
+        "text": "Indicates the end of string"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 295,
+    "type": "MCQ",
+    "question": "Which function is used to compile a regular expression pattern?",
+    "options": [
+      {
+        "label": "A",
+        "text": "re.save()"
+      },
+      {
+        "label": "B",
+        "text": "re.compile()"
+      },
+      {
+        "label": "C",
+        "text": "re.group()"
+      },
+      {
+        "label": "D",
+        "text": "re.fullmatch()"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 296,
+    "type": "MCQ",
+    "question": "What does \\d represent in regex?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Decimal"
+      },
+      {
+        "label": "B",
+        "text": "Digit"
+      },
+      {
+        "label": "C",
+        "text": "Delimiter"
+      },
+      {
+        "label": "D",
+        "text": "Dot"
+      }
+    ],
+    "user_code": "",
+    "marks": "1/1",
+    "difficulty": "easy"
+  },
+  {
+    "id": 299,
+    "type": "MCQ",
+    "question": "Write a Python program that reads a date in the format dd/mm/yyyy and checks: If the format is valid using a regular expression. If it represents a valid calendar date, including leap years and correct day-month combinations. Input Format : A single string in the format dd/mm/yyyy. Output Format : Print \"Valid\" if the date is correctly formatted and is a real date. Print \"Invalid\" otherwise.",
+    "options": [],
+    "user_code": "",
+    "marks": "10/10",
+    "difficulty": "easy"
+  }
+]

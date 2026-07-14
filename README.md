@@ -74,7 +74,13 @@ This course is structured chronologically. Each "Day" is contained within its ow
 | **27** | File Handling | [1. Introduction and Reading Files.md](DAY-27%20Files/1.%20Introduction%20and%20Reading%20Files.md) |
 | **28** | Files Advance | [1. Working with JSON and CSV.md](DAY-28%20Files%20Advance/1.%20Working%20with%20JSON%20and%20CSV.md) |
 
-*Days 29 through 30 are currently under active development. Stay tuned for advanced topics!*
+### Phase 6: Data Science Fundamentals
+| Day | Topic | Start Here |
+|:---:|:---|:---|
+| **29** | NumPy Basics | [1. Introduction to NumPy and NDArrays.md](DAY-29%20NumPy/1.%20Introduction%20to%20NumPy%20and%20NDArrays.md) |
+| **30** | Pandas (DataFrames) | [1. Introduction to Pandas Series and DataFrames.md](DAY-30%20Pandas/1.%20Introduction%20to%20Pandas%20Series%20and%20DataFrames.md) |
+| **31** | Matplotlib | [1. Introduction to Matplotlib and Line Plots.md](DAY-31%20Matplotlib/1.%20Introduction%20to%20Matplotlib%20and%20Line%20Plots.md) |
+
 
 ---
 
